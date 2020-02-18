@@ -1,4 +1,5 @@
 require 'wombat'
+require 'yaml'
 
 class Scraper 
 
@@ -8,12 +9,16 @@ class Scraper
 
     path "/2017/schedule/#sep18"
     
-    gems do
-        list "css=.schedule-item__title", :list
+    talks "css=.schedule-item__body", :iterator do
+        title "css=.schedule-item__title"
+        speaker "css=.schedule-item-speaker__name"
+        github "css=.schedule-item-speaker__id"
     end
-
+   
 end
 
 scraper = Scraper.new
 p scraper.scrape
+result = scraper.scrape
 
+File.open("../ruby-talks/_data/talks.yml", "w") { |file| file.write(result.to_yaml) }
