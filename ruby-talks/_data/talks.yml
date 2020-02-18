@@ -1,0 +1,176 @@
+---
+talks:
+- title: Keynote
+  speaker: nobu
+  github: "@n0kada"
+- title: Fiber in the 10th year
+  speaker: Koichi Sasada
+  github: "@ko1"
+- title: API Development in 2017
+  speaker: Takafumi ONAKA
+  github: "@onk"
+- title: Mapping your world with Ruby
+  speaker: Mat Schaffer
+  github: "@matschaffer"
+- title: How Close is Ruby 3x3 For Production Web Apps?
+  speaker: Noah Gibbs
+  github: "@codefolio"
+- title: Handling mails on a text editor
+  speaker: Shugo Maeda
+  github: "@shugomaeda"
+- title: C how to supercharge Ruby with Rubex
+  speaker: Sameer Deshmukh
+  github: "@v0dro"
+- title: dRuby on Browser
+  speaker: Yoh Osaki
+  github: "@youchan"
+- title: Gemification for Ruby 2.5/3.0
+  speaker: SHIBATA Hiroshi
+  github: "@hsbt"
+- title: Compiling Ruby
+  speaker: Kevin Deisz
+  github: "@kddeisz"
+- title: Do Androids Dream of Electronic Dance Music?
+  speaker: Julian Cheal
+  github: "@juliancheal"
+- title: How to optimize Ruby internal.
+  speaker: Shizuo Fujita
+  github: "@watson1978"
+- title: Hanami - New Ruby Web Framework
+  speaker: Anton Davydov
+  github: "@anton_davydov"
+- title: Development of Data Science Ecosystem for Ruby
+  speaker: Kenta Murata
+  github: "@mrkn"
+- title: mruby gateway for huge amount of realtime data processing
+  speaker: Ritta Narita
+  github: "@narittan"
+- title: 'I quit my job to write my own language: Goby'
+  speaker: Stan Lo
+  github: "@_st0012"
+- title: Ruby Committers vs the World
+  speaker: ''
+  github: 
+- title: Keynote
+  speaker: Yukihiro "Matz" Matsumoto
+  github: "@yukihiro_matz"
+- title: An introduction and future of Ruby coverage library
+  speaker: Yusuke Endoh
+  github: "@mametter"
+- title: Ruby, Opal and WebAssembly
+  speaker: Yutaka HARA
+  github: "@yhara"
+- title: The Ruby Module Builder Pattern
+  speaker: Chris Salzberg
+  github: "@shioyama"
+- title: 'Improve extension API: C++ as better language for extension'
+  speaker: Kouhei Sutou
+  github: "@ktou"
+- title: What visually impaired programmers are thinking about Ruby?
+  speaker: Takuya Nishimoto
+  github: "@nishimotz"
+- title: The Curious Case of Wikipedia Parsing
+  speaker: Victor Shepelev
+  github: "@zverok"
+- title: Automated Type Contracts Generation for Ruby
+  speaker: Valentin Fondaratov
+  github: "@rubymine"
+- title: Regular Expressions Inside Out
+  speaker: Martin J. Dürst
+  github: "@duerst"
+- title: Static Typo Checker in Ruby
+  speaker: Yuki Nishijima
+  github: "@yuki24"
+- title: Type Checking Ruby Programs with Annotations
+  speaker: Soutaro Matsumoto
+  github: "@soutaro"
+- title: Serial Protocol Analyzer on Ruby
+  speaker: Mayumi EMORI
+  github: "@emorima"
+- title: Asynchronous and Non-Blocking IO with JRuby
+  speaker: Joe Kutner
+  github: "@codefinger"
+- title: 'Bending The Curve: Putting Rust in Ruby with Helix'
+  speaker: Godfrey Chan
+  github: "@chancancode"
+- title: Ruby Language Server
+  speaker: Fumiaki MATSUSHIMA
+  github: "@mtsmfm"
+- title: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
+  speaker: Mai Nguyen
+  github: "@happywinebot"
+- title: 'Write once, run on every boards: portable mruby'
+  speaker: Yurie Yamane
+  github: "@yuri_at_earth"
+- title: 'Progress of Ruby/Numo: Numerical Computing for Ruby'
+  speaker: Masahiro TANAKA
+  github: "@masa16tanaka"
+- title: Flor - hubristic interpreter
+  speaker: John Mettraux
+  github: "@jmettraux"
+- title: Lightning Talks
+  speaker: 
+  github: 
+- title: Compacting GC in MRI
+  speaker: Aaron Patterson
+  github: "@tenderlove"
+- title: Introducing the Jet Programming Language
+  speaker: Yasushi Itoh
+  github: "@i2y_"
+- title: Tamashii - Create Rails IoT applications more easily
+  speaker: Henry Tseng
+  github: "@lctseng"
+- title: 'Irb 20th anniversary  memorial session: Reish and Irb2'
+  speaker: Keiju Ishitsuka
+  github: "@keiju"
+- title: Ruby for Distributed Storage System
+  speaker: Satoshi "moris" Tagomori
+  github: "@tagomoris"
+- title: High Concurrent Ruby Web Development Without Fear
+  speaker: Delton Ding
+  github: "@DeltonDing"
+- title: Pattern Matching in Ruby
+  speaker: YUKI TORII
+  github: "@yotii23"
+- title: Ruby Parser In IRB 20th Anniversary...Now Let Time Resume
+  speaker: ITOYANAGI Sakura
+  github: "@aycabta"
+- title: Bundler 2
+  speaker: Colby Swandale
+  github: "@0xColby"
+- title: 'JRuby at 15 Years: Meeting the Challenges'
+  speaker: Charles Nutter
+  github: "@headius"
+- title: Ruby in office time reboot
+  speaker: Kentaro Goto / ごとけん
+  github: "@gotoken"
+- title: Memory Fragmentation and Bloat in Ruby
+  speaker: Nate Berkopec
+  github: "@nateberkopec"
+- title: Ruby Extension Library Verified using Coq Proof-assistant
+  speaker: Tanaka Akira
+  github: "@tanaka_akr"
+- title: Writing Lint for Ruby
+  speaker: Masataka Kuwabara
+  github: "@p_ck_"
+- title: 'Busting Performance Bottlenecks: Improving Boot Time by 60%'
+  speaker: Julian Nadeau
+  github: "@jules2689"
+- title: How to write synchronization mechanisms for Fiber
+  speaker: Masatoshi SEKI
+  github: "@m_seki"
+- title: 'Smalruby : The neat thing to connect Rubyists and Scratchers'
+  speaker: Kouji Takao
+  github: "@takaokouji"
+- title: Improving TruffleRuby’s Startup Time with the SubstrateVM
+  speaker: Kevin Menard
+  github: "@nirvdrum"
+- title: Towards Ruby 3x3 performance
+  speaker: Vladimir Makarov
+  github: "@vnmakarov"
+- title: RubyData Workshop in RubyKaigi 2017
+  speaker: Kenta Murata
+  github: "@mrkn"
+- title: RubyData Workshop in RubyKaigi 2017
+  speaker: Kouhei Sutou
+  github: "@ktou"
