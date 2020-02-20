@@ -3,7 +3,7 @@ require './lib/video_talks'
 
 describe Scraper do
 
-    it 'scrapes the presentation titles from the 2017 RubyKaigi page' do
+    it 'scrapes the Conference Name from the 2017 RubyKaigi page' do
         conference_name = 'RubyKaigi2017'
         url = 'http://www.example.com'
         path =  '/'
