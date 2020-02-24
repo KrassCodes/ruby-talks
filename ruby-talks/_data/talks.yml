@@ -4,346 +4,174 @@ talks:
 - title: Keynote
   speaker: nobu
   github: "@n0kada"
-  link: https://rubykaigi.org/2017/presentations/n0kada.html
-  products:
-  - title: Schedule
 - title: Fiber in the 10th year
   speaker: Koichi Sasada
   github: "@ko1"
-  link: https://rubykaigi.org/2017/presentations/ko1.html
-  products:
-  - title: Schedule
 - title: API Development in 2017
   speaker: Takafumi ONAKA
   github: "@onk"
-  link: https://rubykaigi.org/2017/presentations/onk.html
-  products:
-  - title: Schedule
 - title: Mapping your world with Ruby
   speaker: Mat Schaffer
   github: "@matschaffer"
-  link: https://rubykaigi.org/2017/presentations/matschaffer.html
-  products:
-  - title: Schedule
 - title: How Close is Ruby 3x3 For Production Web Apps?
   speaker: Noah Gibbs
   github: "@codefolio"
-  link: https://rubykaigi.org/2017/presentations/codefolio.html
-  products:
-  - title: Schedule
 - title: Handling mails on a text editor
   speaker: Shugo Maeda
   github: "@shugomaeda"
-  link: https://rubykaigi.org/2017/presentations/shugomaeda.html
-  products:
-  - title: Schedule
 - title: C how to supercharge Ruby with Rubex
   speaker: Sameer Deshmukh
   github: "@v0dro"
-  link: https://rubykaigi.org/2017/presentations/v0dro.html
-  products:
-  - title: Schedule
 - title: dRuby on Browser
   speaker: Yoh Osaki
   github: "@youchan"
-  link: https://rubykaigi.org/2017/presentations/youchan.html
-  products:
-  - title: Schedule
 - title: Gemification for Ruby 2.5/3.0
   speaker: SHIBATA Hiroshi
   github: "@hsbt"
-  link: https://rubykaigi.org/2017/presentations/hsbt.html
-  products:
-  - title: Schedule
 - title: Compiling Ruby
   speaker: Kevin Deisz
   github: "@kddeisz"
-  link: https://rubykaigi.org/2017/presentations/kddeisz.html
-  products:
-  - title: Schedule
 - title: Do Androids Dream of Electronic Dance Music?
   speaker: Julian Cheal
   github: "@juliancheal"
-  link: https://rubykaigi.org/2017/presentations/juliancheal.html
-  products:
-  - title: Schedule
 - title: How to optimize Ruby internal.
   speaker: Shizuo Fujita
   github: "@watson1978"
-  link: https://rubykaigi.org/2017/presentations/watson1978.html
-  products:
-  - title: Schedule
 - title: Hanami - New Ruby Web Framework
   speaker: Anton Davydov
   github: "@anton_davydov"
-  link: https://rubykaigi.org/2017/presentations/anton_davydov.html
-  products:
-  - title: Schedule
 - title: Development of Data Science Ecosystem for Ruby
   speaker: Kenta Murata
   github: "@mrkn"
-  link: https://rubykaigi.org/2017/presentations/mrkn.html
-  products:
-  - title: Schedule
 - title: mruby gateway for huge amount of realtime data processing
   speaker: Ritta Narita
   github: "@narittan"
-  link: https://rubykaigi.org/2017/presentations/narittan.html
-  products:
-  - title: Schedule
 - title: 'I quit my job to write my own language: Goby'
   speaker: Stan Lo
   github: "@_st0012"
-  link: https://rubykaigi.org/2017/presentations/_st0012.html
-  products:
-  - title: Schedule
 - title: Ruby Committers vs the World
   speaker: ''
   github: 
-  link: https://rubykaigi.org/2017/presentations/rubylangorg.html
-  products:
-  - title: Schedule
 - title: Keynote
   speaker: Yukihiro "Matz" Matsumoto
   github: "@yukihiro_matz"
-  link: https://rubykaigi.org/2017/presentations/yukihiro_matz.html
-  products:
-  - title: Schedule
 - title: An introduction and future of Ruby coverage library
   speaker: Yusuke Endoh
   github: "@mametter"
-  link: https://rubykaigi.org/2017/presentations/mametter.html
-  products:
-  - title: Schedule
 - title: Ruby, Opal and WebAssembly
   speaker: Yutaka HARA
   github: "@yhara"
-  link: https://rubykaigi.org/2017/presentations/yhara.html
-  products:
-  - title: Schedule
 - title: The Ruby Module Builder Pattern
   speaker: Chris Salzberg
   github: "@shioyama"
-  link: https://rubykaigi.org/2017/presentations/shioyama.html
-  products:
-  - title: Schedule
 - title: 'Improve extension API: C++ as better language for extension'
   speaker: Kouhei Sutou
   github: "@ktou"
-  link: https://rubykaigi.org/2017/presentations/ktou.html
-  products:
-  - title: Schedule
 - title: What visually impaired programmers are thinking about Ruby?
   speaker: Takuya Nishimoto
   github: "@nishimotz"
-  link: https://rubykaigi.org/2017/presentations/nishimotz.html
-  products:
-  - title: Schedule
 - title: The Curious Case of Wikipedia Parsing
   speaker: Victor Shepelev
   github: "@zverok"
-  link: https://rubykaigi.org/2017/presentations/zverok.html
-  products:
-  - title: Schedule
 - title: Automated Type Contracts Generation for Ruby
   speaker: Valentin Fondaratov
   github: "@rubymine"
-  link: https://rubykaigi.org/2017/presentations/rubymine.html
-  products:
-  - title: Schedule
 - title: Regular Expressions Inside Out
   speaker: Martin J. Dürst
   github: "@duerst"
-  link: https://rubykaigi.org/2017/presentations/duerst.html
-  products:
-  - title: Schedule
 - title: Static Typo Checker in Ruby
   speaker: Yuki Nishijima
   github: "@yuki24"
-  link: https://rubykaigi.org/2017/presentations/yuki24.html
-  products:
-  - title: Schedule
 - title: Type Checking Ruby Programs with Annotations
   speaker: Soutaro Matsumoto
   github: "@soutaro"
-  link: https://rubykaigi.org/2017/presentations/soutaro.html
-  products:
-  - title: Schedule
 - title: Serial Protocol Analyzer on Ruby
   speaker: Mayumi EMORI
   github: "@emorima"
-  link: https://rubykaigi.org/2017/presentations/emorima.html
-  products:
-  - title: Schedule
 - title: Asynchronous and Non-Blocking IO with JRuby
   speaker: Joe Kutner
   github: "@codefinger"
-  link: https://rubykaigi.org/2017/presentations/codefinger.html
-  products:
-  - title: Schedule
 - title: 'Bending The Curve: Putting Rust in Ruby with Helix'
   speaker: Godfrey Chan
   github: "@chancancode"
-  link: https://rubykaigi.org/2017/presentations/chancancode.html
-  products:
-  - title: Schedule
 - title: Ruby Language Server
   speaker: Fumiaki MATSUSHIMA
   github: "@mtsmfm"
-  link: https://rubykaigi.org/2017/presentations/mtsmfm.html
-  products:
-  - title: Schedule
 - title: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
   speaker: Mai Nguyen
   github: "@happywinebot"
-  link: https://rubykaigi.org/2017/presentations/happywinebot.html
-  products:
-  - title: Schedule
 - title: 'Write once, run on every boards: portable mruby'
   speaker: Yurie Yamane
   github: "@yuri_at_earth"
-  link: https://rubykaigi.org/2017/presentations/yuri_at_earth.html
-  products:
-  - title: Schedule
 - title: 'Progress of Ruby/Numo: Numerical Computing for Ruby'
   speaker: Masahiro TANAKA
   github: "@masa16tanaka"
-  link: https://rubykaigi.org/2017/presentations/masa16tanaka.html
-  products:
-  - title: Schedule
 - title: Flor - hubristic interpreter
   speaker: John Mettraux
   github: "@jmettraux"
-  link: https://rubykaigi.org/2017/presentations/jmettraux.html
-  products:
-  - title: Schedule
 - title: Lightning Talks
   speaker: 
   github: 
-  link: https://rubykaigi.org/2017/presentations/lt/
-  products:
-  - title: Schedule
 - title: Compacting GC in MRI
   speaker: Aaron Patterson
   github: "@tenderlove"
-  link: https://rubykaigi.org/2017/presentations/tenderlove.html
-  products:
-  - title: Schedule
 - title: Introducing the Jet Programming Language
   speaker: Yasushi Itoh
   github: "@i2y_"
-  link: https://rubykaigi.org/2017/presentations/i2y_.html
-  products:
-  - title: Schedule
 - title: Tamashii - Create Rails IoT applications more easily
   speaker: Henry Tseng
   github: "@lctseng"
-  link: https://rubykaigi.org/2017/presentations/lctseng.html
-  products:
-  - title: Schedule
 - title: 'Irb 20th anniversary  memorial session: Reish and Irb2'
   speaker: Keiju Ishitsuka
   github: "@keiju"
-  link: https://rubykaigi.org/2017/presentations/keiju.html
-  products:
-  - title: Schedule
 - title: Ruby for Distributed Storage System
   speaker: Satoshi "moris" Tagomori
   github: "@tagomoris"
-  link: https://rubykaigi.org/2017/presentations/tagomoris.html
-  products:
-  - title: Schedule
 - title: High Concurrent Ruby Web Development Without Fear
   speaker: Delton Ding
   github: "@DeltonDing"
-  link: https://rubykaigi.org/2017/presentations/DeltonDing.html
-  products:
-  - title: Schedule
 - title: Pattern Matching in Ruby
   speaker: YUKI TORII
   github: "@yotii23"
-  link: https://rubykaigi.org/2017/presentations/yotii23.html
-  products:
-  - title: Schedule
 - title: Ruby Parser In IRB 20th Anniversary...Now Let Time Resume
   speaker: ITOYANAGI Sakura
   github: "@aycabta"
-  link: https://rubykaigi.org/2017/presentations/aycabta.html
-  products:
-  - title: Schedule
 - title: Bundler 2
   speaker: Colby Swandale
   github: "@0xColby"
-  link: https://rubykaigi.org/2017/presentations/0xColby.html
-  products:
-  - title: Schedule
 - title: 'JRuby at 15 Years: Meeting the Challenges'
   speaker: Charles Nutter
   github: "@headius"
-  link: https://rubykaigi.org/2017/presentations/headius.html
-  products:
-  - title: Schedule
 - title: Ruby in office time reboot
   speaker: Kentaro Goto / ごとけん
   github: "@gotoken"
-  link: https://rubykaigi.org/2017/presentations/gotoken.html
-  products:
-  - title: Schedule
 - title: Memory Fragmentation and Bloat in Ruby
   speaker: Nate Berkopec
   github: "@nateberkopec"
-  link: https://rubykaigi.org/2017/presentations/nateberkopec.html
-  products:
-  - title: Schedule
 - title: Ruby Extension Library Verified using Coq Proof-assistant
   speaker: Tanaka Akira
   github: "@tanaka_akr"
-  link: https://rubykaigi.org/2017/presentations/tanaka_akr.html
-  products:
-  - title: Schedule
 - title: Writing Lint for Ruby
   speaker: Masataka Kuwabara
   github: "@p_ck_"
-  link: https://rubykaigi.org/2017/presentations/p_ck_.html
-  products:
-  - title: Schedule
 - title: 'Busting Performance Bottlenecks: Improving Boot Time by 60%'
   speaker: Julian Nadeau
   github: "@jules2689"
-  link: https://rubykaigi.org/2017/presentations/jules2689.html
-  products:
-  - title: Schedule
 - title: How to write synchronization mechanisms for Fiber
   speaker: Masatoshi SEKI
   github: "@m_seki"
-  link: https://rubykaigi.org/2017/presentations/m_seki.html
-  products:
-  - title: Schedule
 - title: 'Smalruby : The neat thing to connect Rubyists and Scratchers'
   speaker: Kouji Takao
   github: "@takaokouji"
-  link: https://rubykaigi.org/2017/presentations/takaokouji.html
-  products:
-  - title: Schedule
 - title: Improving TruffleRuby’s Startup Time with the SubstrateVM
   speaker: Kevin Menard
   github: "@nirvdrum"
-  link: https://rubykaigi.org/2017/presentations/nirvdrum.html
-  products:
-  - title: Schedule
 - title: Towards Ruby 3x3 performance
   speaker: Vladimir Makarov
   github: "@vnmakarov"
-  link: https://rubykaigi.org/2017/presentations/vnmakarov.html
-  products:
-  - title: Schedule
 - title: RubyData Workshop in RubyKaigi 2017
   speaker: Kenta Murata
   github: "@mrkn"
-  link: 
-  products: []
 - title: RubyData Workshop in RubyKaigi 2017
   speaker: Kouhei Sutou
   github: "@ktou"
-  link: 
-  products: []
