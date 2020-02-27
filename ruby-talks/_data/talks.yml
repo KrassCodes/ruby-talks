@@ -1,177 +1,743 @@
 ---
-conference_name: RubyKaigi 2017
-talks:
-- title: Keynote
-  speaker: nobu
-  github: "@n0kada"
-- title: Fiber in the 10th year
-  speaker: Koichi Sasada
-  github: "@ko1"
-- title: API Development in 2017
-  speaker: Takafumi ONAKA
-  github: "@onk"
-- title: Mapping your world with Ruby
-  speaker: Mat Schaffer
-  github: "@matschaffer"
-- title: How Close is Ruby 3x3 For Production Web Apps?
-  speaker: Noah Gibbs
-  github: "@codefolio"
-- title: Handling mails on a text editor
-  speaker: Shugo Maeda
-  github: "@shugomaeda"
-- title: C how to supercharge Ruby with Rubex
-  speaker: Sameer Deshmukh
-  github: "@v0dro"
-- title: dRuby on Browser
-  speaker: Yoh Osaki
-  github: "@youchan"
-- title: Gemification for Ruby 2.5/3.0
-  speaker: SHIBATA Hiroshi
-  github: "@hsbt"
-- title: Compiling Ruby
-  speaker: Kevin Deisz
-  github: "@kddeisz"
-- title: Do Androids Dream of Electronic Dance Music?
-  speaker: Julian Cheal
-  github: "@juliancheal"
-- title: How to optimize Ruby internal.
-  speaker: Shizuo Fujita
-  github: "@watson1978"
-- title: Hanami - New Ruby Web Framework
-  speaker: Anton Davydov
-  github: "@anton_davydov"
-- title: Development of Data Science Ecosystem for Ruby
-  speaker: Kenta Murata
-  github: "@mrkn"
-- title: mruby gateway for huge amount of realtime data processing
-  speaker: Ritta Narita
-  github: "@narittan"
-- title: 'I quit my job to write my own language: Goby'
-  speaker: Stan Lo
-  github: "@_st0012"
-- title: Ruby Committers vs the World
-  speaker: ''
-  github: 
-- title: Keynote
-  speaker: Yukihiro "Matz" Matsumoto
-  github: "@yukihiro_matz"
-- title: An introduction and future of Ruby coverage library
-  speaker: Yusuke Endoh
-  github: "@mametter"
-- title: Ruby, Opal and WebAssembly
-  speaker: Yutaka HARA
-  github: "@yhara"
-- title: The Ruby Module Builder Pattern
-  speaker: Chris Salzberg
-  github: "@shioyama"
-- title: 'Improve extension API: C++ as better language for extension'
-  speaker: Kouhei Sutou
-  github: "@ktou"
-- title: What visually impaired programmers are thinking about Ruby?
-  speaker: Takuya Nishimoto
-  github: "@nishimotz"
-- title: The Curious Case of Wikipedia Parsing
-  speaker: Victor Shepelev
-  github: "@zverok"
-- title: Automated Type Contracts Generation for Ruby
-  speaker: Valentin Fondaratov
-  github: "@rubymine"
-- title: Regular Expressions Inside Out
-  speaker: Martin J. Dürst
-  github: "@duerst"
-- title: Static Typo Checker in Ruby
-  speaker: Yuki Nishijima
-  github: "@yuki24"
-- title: Type Checking Ruby Programs with Annotations
-  speaker: Soutaro Matsumoto
-  github: "@soutaro"
-- title: Serial Protocol Analyzer on Ruby
-  speaker: Mayumi EMORI
-  github: "@emorima"
-- title: Asynchronous and Non-Blocking IO with JRuby
-  speaker: Joe Kutner
-  github: "@codefinger"
-- title: 'Bending The Curve: Putting Rust in Ruby with Helix'
-  speaker: Godfrey Chan
-  github: "@chancancode"
-- title: Ruby Language Server
-  speaker: Fumiaki MATSUSHIMA
-  github: "@mtsmfm"
-- title: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
-  speaker: Mai Nguyen
-  github: "@happywinebot"
-- title: 'Write once, run on every boards: portable mruby'
-  speaker: Yurie Yamane
-  github: "@yuri_at_earth"
-- title: 'Progress of Ruby/Numo: Numerical Computing for Ruby'
-  speaker: Masahiro TANAKA
-  github: "@masa16tanaka"
-- title: Flor - hubristic interpreter
-  speaker: John Mettraux
-  github: "@jmettraux"
-- title: Lightning Talks
-  speaker: 
-  github: 
-- title: Compacting GC in MRI
-  speaker: Aaron Patterson
-  github: "@tenderlove"
-- title: Introducing the Jet Programming Language
-  speaker: Yasushi Itoh
-  github: "@i2y_"
-- title: Tamashii - Create Rails IoT applications more easily
-  speaker: Henry Tseng
-  github: "@lctseng"
-- title: 'Irb 20th anniversary  memorial session: Reish and Irb2'
-  speaker: Keiju Ishitsuka
-  github: "@keiju"
-- title: Ruby for Distributed Storage System
-  speaker: Satoshi "moris" Tagomori
-  github: "@tagomoris"
-- title: High Concurrent Ruby Web Development Without Fear
-  speaker: Delton Ding
-  github: "@DeltonDing"
-- title: Pattern Matching in Ruby
-  speaker: YUKI TORII
-  github: "@yotii23"
-- title: Ruby Parser In IRB 20th Anniversary...Now Let Time Resume
-  speaker: ITOYANAGI Sakura
-  github: "@aycabta"
-- title: Bundler 2
-  speaker: Colby Swandale
-  github: "@0xColby"
-- title: 'JRuby at 15 Years: Meeting the Challenges'
-  speaker: Charles Nutter
-  github: "@headius"
-- title: Ruby in office time reboot
-  speaker: Kentaro Goto / ごとけん
-  github: "@gotoken"
-- title: Memory Fragmentation and Bloat in Ruby
-  speaker: Nate Berkopec
-  github: "@nateberkopec"
-- title: Ruby Extension Library Verified using Coq Proof-assistant
-  speaker: Tanaka Akira
-  github: "@tanaka_akr"
-- title: Writing Lint for Ruby
-  speaker: Masataka Kuwabara
-  github: "@p_ck_"
-- title: 'Busting Performance Bottlenecks: Improving Boot Time by 60%'
-  speaker: Julian Nadeau
-  github: "@jules2689"
-- title: How to write synchronization mechanisms for Fiber
-  speaker: Masatoshi SEKI
-  github: "@m_seki"
-- title: 'Smalruby : The neat thing to connect Rubyists and Scratchers'
-  speaker: Kouji Takao
-  github: "@takaokouji"
-- title: Improving TruffleRuby’s Startup Time with the SubstrateVM
-  speaker: Kevin Menard
-  github: "@nirvdrum"
-- title: Towards Ruby 3x3 performance
-  speaker: Vladimir Makarov
-  github: "@vnmakarov"
-- title: RubyData Workshop in RubyKaigi 2017
-  speaker: Kenta Murata
-  github: "@mrkn"
-- title: RubyData Workshop in RubyKaigi 2017
-  speaker: Kouhei Sutou
-  github: "@ktou"
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: nobu
+    speaker_bio: The patch monster
+    talk_title: Keynote
+    talk_description: Nobu's keynote speech
+    talk_support_docs: Making Ruby? ゆるふわRuby生活
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Koichi Sasada
+    speaker_bio: Koichi Sasada is a programmer, mainly developing Ruby interpreter
+      (CRuby/MRI). He received Ph.D (Information Science and Technology) from the
+      University of Tokyo, 2007. He became a faculty of University of Tokyo (Assistant
+      associate 2006-2008, Assistant professor 2008-2012). After 13 years in University,
+      he joined Matz's team in Heroku, Inc (2012-2017). At 2017 he joined Cookpad
+      Inc. He is also a director of Ruby Association.
+    talk_title: Fiber in the 10th year
+    talk_description: "10 years ago I introduced new class Fiber into Ruby 1.9 as
+      \ (semi-)coroutine.\n                      \n                      Fiber is
+      a powerful tool to make generators and self managing context switching scheduler.
+      Recently we receive a new proposal \"auto-Fiber\" to use Fiber aggressively
+      in asynchronous operations.\n                      \n                      In
+      this talk, I will introduce a Fiber itself and a brief histroy of Fiber implementations.
+      What is coroutine and semi-coroutine? Why we need to require 'fiber' library
+      to use Fiber#transfer? How to implement fibers and how to speed up them? Also
+      I introduce new proposal \"auto-Fiber\" and this discussion."
+    talk_support_docs: Fiber in the 10th year
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Takafumi ONAKA
+    speaker_bio: "https://github.com/onk/\n                          \n                          Rails
+      + iOS/Android programmer at Drecom Co., Ltd.\n                          Ruby
+      Kaja 2013"
+    talk_title: API Development in 2017
+    talk_description: "Summarize \"How to develop API server efficiently.\"\n                      \n
+      \                     This talk will talk while looking back on the history
+      like\n                      \n                      \n                      Why
+      REST (RESTful API) was born?\n                      The world has became to
+      need Native client / Web front-end\n                      API documentation
+      tool are widely used\n                      \n                      \n                      API
+      Blueprint, Swagger, RAML, JSON Hyper-Schema\n                      Schema driven
+      development\n                      \n                      API Query Language
+      (GraphQL)'s birth\n                      \n                      \n                      And
+      I talk about the library concept and code that we implemented as necessary.\n
+      \                     There were many challenges such as how to communicate
+      at the interface boundary, how to implement without any mistakes, etc."
+    talk_support_docs: 
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Mat Schaffer
+    speaker_bio: "I'm a volunteer with Safecast.org, an SRE with Elastic and a resident
+      of Gifu, Japan.\n                          I've been working in Ruby since 2006
+      and authored a number of Ruby tools \n                          & resources
+      including knife-solo."
+    talk_title: Mapping your world with Ruby
+    talk_description: "In the wake of the March 2011 earthquake, many noticed a lack
+      of good environmental data regarding radiation. The Safecast project was born
+      from that need and our Ruby-based infrastructure how is home to nearly 70 million
+      data points.\n                      \n                      In this talk we'll
+      go over the basics of the project, what we've learned over the last 6 years
+      of running a volunteer-based Ruby project, and our plans for future expansion
+      into tracking both radiation and air quality data."
+    talk_support_docs: Mapping your world with Ruby
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Noah Gibbs
+    speaker_bio: Noah works on Ruby for AppFolio, working on Ruby performance and
+      related tooling. He wrote the book "Rebuilding Rails" about understanding Rails
+      as "really just Ruby."
+    talk_title: How Close is Ruby 3x3 For Production Web Apps?
+    talk_description: How much faster is current Ruby than Ruby 2.0 for a production
+      web application? Let's look at a mixed workload in the real commercial Discourse
+      forum software. We'll see how the speed has changed overall. We'll also examine
+      slow requests, garbage collection, warmup iterations and more. You'll see how
+      to use this benchmark to test your own Ruby optimizations.
+    talk_support_docs: How Close Is Ruby 3x3 for Real Web Apps?
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Shugo Maeda
+    speaker_bio: A Ruby committer, Director of Network Applied Communication Laboratory,
+      and Secretary general of the Ruby Association
+    talk_title: Handling mails on a text editor
+    talk_description: "A text editor is perfect for mail handling because mails consist
+      of text.  Ruby is perfect for text editing because it's so powerful.\n                      \n
+      \                     In this talk, I introduce Textbringer, a text editor written
+      in Ruby, and Mournmail, a message user agent implemented as a plugin of Textbringer,
+      and I tells the fun of text editing and mail handling.\n                      \n
+      \                     I also talk about Law, Chaos, and the Cosmic Balance through
+      the design and implementation of Textbringer and Mournmail."
+    talk_support_docs: Handling mails on a text editor
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Sameer Deshmukh
+    speaker_bio: "Sameer is a student and a contributor to the Ruby Science Foundation,
+      where he helps build scientific computation tools in Ruby. He is currently working
+      on Rubex, a new language for easily writing C extensions for the CRuby interpreter.\n
+      \                         \n                          He enjoys spending spare
+      time with friends, books and his bass guitar."
+    talk_title: C how to supercharge Ruby with Rubex
+    talk_description: CRuby is still one of the most popular Ruby interpreters in
+      use today, but it lacks speed. In this talk you will be introduced to Rubex
+      - a new programming language that compiles to C, looks almost exactly like Ruby
+      and is specifically designed for supercharging your Ruby code with minimal effort.
+    talk_support_docs: Ruby Kaigi 2017 - C how to supercharge your Ruby with Rubex
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Yoh Osaki
+    speaker_bio: |-
+      Software engineer at Ubiregi inc.
+                                Author of Hyalite which is react like virtual DOM library.
+                                Member of Asakusa.rb, Chidoriashi.rb
+    talk_title: dRuby on Browser
+    talk_description: |-
+      I implemented dRuby on Browser with Opal(a JavaScript to Ruby source code compiler).
+                            Browser communicate with WebSocket to the server.
+                            The clients transparently access the server-side objects through the distributed objects.
+                            Also, by sharing the server-side objects among multiple clients, it can be applied to collaborative applications like Google Apps.
+                            This talk will explain the implementation of dRuby on Opal and demonstrate the collaborative application.
+    talk_support_docs: dRuby on Browser
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: SHIBATA Hiroshi
+    speaker_bio: Ruby Committer, Executive Officer CPO at GMO Pepabo, Inc.
+    talk_title: Gemification for Ruby 2.5/3.0
+    talk_description: "Ruby have many libraries named standard library, extension
+      and default\n                      gems, bundled gems. These are some differences
+      under the bundler and\n                      rails application.\n                      \n
+      \                     default gems and bundled gems are introduced to resolve
+      dependency\n                      problem and development ecosystem around the
+      ruby core. We have the\n                      plan to promote default/bundled
+      gems from standard libraries. It says\n                      “Gemification”
+      projects.\n                      \n                      What Gemification changes
+      in Ruby ecosystem? In this presentation,\n                      from the standpoint
+      of the maintainer of the Ruby programming\n                      language, I
+      will explain details of Gemification and its blocker\n                      things.
+      Finally, I will also introduce the new features of Ruby 2.5\n                      and
+      3.0."
+    talk_support_docs: Gemification for Ruby 2.5/3.0
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kevin Deisz
+    speaker_bio: I am a software engineer at Localytics in Boston, Massachusetts.
+      I'm passionate about music, open-source software, and craft beer.
+    talk_title: Compiling Ruby
+    talk_description: Since Ruby 2.3 and the introduction of RubyVM::InstructionSequence::load_iseq,
+      we've been able to programmatically load ruby bytecode. By divorcing the process
+      of running YARV byte code from the process of compiling ruby code, we can take
+      advantage of the strengths of the ruby virtual machine while simultaneously
+      reaping the benefits of a compiler such as macros, type checking, and instruction
+      sequence optimizations. This can make our ruby faster and more readable! This
+      talk demonstrates how to integrate this into your own workflows and the exciting
+      possibilities this enables.
+    talk_support_docs: Compiling Ruby
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Julian Cheal
+    speaker_bio: A British Ruby/Rails developer, with a penchant for tweed, fine coffee,
+      homebrewing, and deploying enterprise clouds.
+    talk_title: Do Androids Dream of Electronic Dance Music?
+    talk_description: 'AI is everywhere in our lives these days: recommending our
+      TV shows, planning our car trips, and running our day-to-day lives through artificially
+      intelligent assistants like Siri and Alexa. But are machines capable of creativity?
+      Can they write poems, paint pictures, or compose music that moves human audiences?
+      We believe they can! In this talk, we’ll use Ruby and cutting-edge machine learning
+      tools to train a neural network on human-generated Electronic Dance Music (EDM),
+      then see what sorts of music the machine dreams up.'
+    talk_support_docs: 
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Shizuo Fujita
+    speaker_bio: "Shizuo Fujita\n                          \n                          Engineer
+      in Ubiregi, Inc.\n                          A newbie of ruby committer."
+    talk_title: How to optimize Ruby internal.
+    talk_description: "\"Ruby 3\" has aimed to optimize performance which is one of
+      goals to release.\n                      I have made some patches to optimize
+      Ruby internal to realize it.\n                      \n                      This
+      talk describes how optimized Ruby internal at Ruby 2.5."
+    talk_support_docs: How to optimize Ruby internal
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Anton Davydov
+    speaker_bio: I'm an indie developer from Moscow. I work on different open source
+      projects and builds Space-Rocket ships at night. I'm Hanami core developer.
+    talk_title: Hanami - New Ruby Web Framework
+    talk_description: The hanami is quite new and interesting framework which you
+      are unlikely to write complex applications. But this does not mean that this
+      framework is not worth your attention. Besides old approaches, you can also
+      find new interesting solutions.
+    talk_support_docs: viewing ruby blossom kaigi2017
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kenta Murata
+    speaker_bio: |-
+      A Ruby committer.  A BigDecimal maintainer.
+                                I'm currently focusing on making Ruby a data-science-ready programming language.
+    talk_title: Development of Data Science Ecosystem for Ruby
+    talk_description: "The importance of data analysis in business is increasing day
+      by day.\n                      Considering the future of Ruby which is often
+      adopted as the development of business systems, it is an urgent task to make
+      this programming language available in datascience.\n                      \n
+      \                     By the appearance of PyCall, Ruby has became able to use
+      mainstreem tools used in datascience such as pandas and matplotlib.\n                      However,
+      in order to establish Ruby as a programming language that can be used in datascience,
+      and to keep it in the future as well, there are many problems now, but only
+      a very few developers are working on solving this problem.\n                      \n
+      \                     In this presentation, we will introduce what we'll need
+      in the future to establish Ruby as a programming language that can be used in
+      data science.\n                      And we'll aim to stimulate Rubyists who
+      are interested in this field, and to activate the development of the datascience
+      ecosystem for Ruby by encouraging development of missing tools, documentation,
+      and reporting on feeling of use and bugs."
+    talk_support_docs: Development of Data Science Ecosystem for Ruby
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Ritta Narita
+    speaker_bio: |-
+      Software Engineer at Treasure Data.Inc.
+                                And he is a committer of fluentd/serverengine.
+    talk_title: mruby gateway for huge amount of realtime data processing
+    talk_description: "TreasureData deals with huge amount of streaming data import
+      request and saves them into our database in realtime without any lost. \n                      New
+      scalable system is required to process requests increasing day by day, and I
+      decided to replace old system with rails and fluentd to new system with h2o
+      and mruby for gateway server.\n                      \n                      I'll
+      introduce why h2o and mruby is good and how I optimized mruby server handler
+      for the system. In addition, I'll talk about my patches for h2o to make it possible
+      for mruby parallel processing/asynchronous processing. And also, I'll show benchmarks
+      of actual product."
+    talk_support_docs: mruby gateway for huge amount of realtime data processing
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Stan Lo
+    speaker_bio: "Ruby/Rails developer, cat and boxing lover. Currently working on
+      Goby language https://github.com/goby-lang/goby as a junior language designer
+      \U0001F601"
+    talk_title: 'I quit my job to write my own language: Goby'
+    talk_description: "That day, for no particular reason, I decided to write my own
+      language. So I followed a book and wrote the monkey. And when I wrote monkey,
+      I thought maybe I'd create my own language. And when I created it, I thought
+      maybe I'd just make it more like Ruby. And I figured, since I've spent so many
+      time, maybe I'd just make it a VM-based language. And that's what I did. I wrote
+      VM and compiler just like Ruby did in version 1.9. For no particular reason
+      I just kept on going. I created file and http library. And when I made them,
+      I figured, since I'd gone this far, I might as well add a web server. When I
+      created the web server, I figured, since I'd gone this far, I might just quit
+      my job and make it my own programming language: Goby\n                      \n
+      \                     For leanring more about Goby, please also checkout our
+      Gitbook (constantly updated!)"
+    talk_support_docs: Goby and its compiler
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Yukihiro "Matz" Matsumoto
+    speaker_bio: The Creator of Ruby
+    talk_title: Keynote
+    talk_description: TBD
+    talk_support_docs: 
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Keiju Ishitsuka
+    speaker_bio: Ruby's godfather.
+    talk_title: 'Irb 20th anniversary  memorial session: Reish and Irb2'
+    talk_description: "Irb has been born 20 years now.. To commemorate it I will talk
+      about Reish and the next generation of Irb.\n                      Reish is
+      an an unix shell for rubyist.  It is a shell language that realize Ruby's feature.
+      Also, it is an language which is metamorphosed from Ruby for more natural shell
+      operation.\n                      Reish is under development. Reish is similar
+      to Irb in usage, and various knowledge was gained in its development. I will
+      introduce the vision of Irb next generation based on that.\n                      \n
+      \                     Irbは今年で生まれて20年になります. それを記念してReishとIrbの次世代の話をします. \n                      ReishはRubyistのためのshellで,
+      Rubyの機能を実現しています. また, Ruby操作から自然にshell操作に変換可能な言語です. \n                      Reishは現在開発中です.
+      ReishはIrbと使い方が似ていて, その開発からいろいろな知見を得ることができます。それを基にIrbの次世代の構想をお話しします."
+    talk_support_docs: 'Irb 20th anniversary memorial session: Reish and Irb2!?'
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Satoshi "moris" Tagomori
+    speaker_bio: |-
+      OSS developer/maintainer: Fluentd, Norikra, MessagePack-Ruby, Woothee and many others mainly about Web services, data collecting and distributed/streaming data processing.
+                                Living in Tokyo, and day job is for Treasure Data.
+    talk_title: Ruby for Distributed Storage System
+    talk_description: "Storage systems is a big topic in distributed systems, which
+      requires high stability, reliability and performance. There are many OSS distributed
+      storage systems, but most of these are implemented in Java and other JVM languages
+      (just some others are in C++, Riak, etc).\n                      An OSS distributed
+      storage, bigdam-pool, is implemented both in Java and Ruby and I'm getting a
+      benchmark score for both implementations. This talk will show the details of
+      benchmark result, and what I learnt from this trial.\n                      \n
+      \                     \n                      Providing HTTP API in a daemon\n
+      \                     Serializing/Deserializing Data\n                      Performance"
+    talk_support_docs: Ruby and Distributed Storage Systems
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Delton Ding
+    speaker_bio: Developer from HeckPsi Lab in Shanghai. Ruby enthusiasts. Main Contributor
+      to Project Midori.
+    talk_title: High Concurrent Ruby Web Development Without Fear
+    talk_description: "We've been debating on the concurrency solution of Ruby for
+      several years. Numerous custom \"evented\" drivers have been built, but for
+      most of these projects, developers are required to think in the \"evented\"
+      way to get things work properly, which not only breaks the elegance of Ruby
+      programming, but also greatly increases the complexity of the refactoring process.\n
+      \                     \n                      We will then think in Ruby, looking
+      for the solution to make your whole web application \"evented\" with great meta-programming
+      features of Ruby language itself. So that, you could still concentrate on your
+      business models while programming as usual, but the performance may boost to
+      5 times faster or more without any hesitation."
+    talk_support_docs: High Concurrent Ruby Web Development Without Fear
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kouhei Sutou
+    speaker_bio: He is a free software programmer and the president of ClearCode Inc.
+      He is also the namer of ClearCode Inc. The origin of the company name is "clear
+      code". We will be programmers that code clear code as our company name suggests.
+      He is interested in how to tell other programmers about how he codes clear code.
+    talk_title: 'Improve extension API: C++ as better language for extension'
+    talk_description: "This talk proposes better extension API.\n                      \n
+      \                     The current extension API is C API. In the past, some
+      languages such as Rust (RubyKaigi 2015), Go (Oedo RubyKaigi 05), rubex (RubyKaigi
+      2016) were proposed as languages to write extension.\n                      \n
+      \                     This talks proposes C++ as a better language for writing
+      extension. Reasons:\n                      \n                      \n                      C++
+      API can provide simpler API than C API.\n                      C++ API doesn't
+      need C bindings because C++ can use C API including macro natively. Other languages
+      such as Rust and Go need C bindings.\n                      Less API maintenance
+      cost. Other approaches need more works for Ruby evolution such as introduces
+      new syntax and new API."
+    talk_support_docs: 'Improve extension API: C++ as better language for extension'
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Satoshi "moris" Tagomori
+    speaker_bio: |-
+      OSS developer/maintainer: Fluentd, Norikra, MessagePack-Ruby, Woothee and many others mainly about Web services, data collecting and distributed/streaming data processing.
+                                Living in Tokyo, and day job is for Treasure Data.
+    talk_title: Ruby for Distributed Storage System
+    talk_description: "Storage systems is a big topic in distributed systems, which
+      requires high stability, reliability and performance. There are many OSS distributed
+      storage systems, but most of these are implemented in Java and other JVM languages
+      (just some others are in C++, Riak, etc).\n                      An OSS distributed
+      storage, bigdam-pool, is implemented both in Java and Ruby and I'm getting a
+      benchmark score for both implementations. This talk will show the details of
+      benchmark result, and what I learnt from this trial.\n                      \n
+      \                     \n                      Providing HTTP API in a daemon\n
+      \                     Serializing/Deserializing Data\n                      Performance"
+    talk_support_docs: Ruby and Distributed Storage Systems
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Victor Shepelev
+    speaker_bio: "Ukrainian programmer and poet with more than fifteen years of programming
+      experience and ten years of Ruby programming.\n                          \n
+      \                         Working at Toptal, mentoring students (including Google
+      Summer of Code-2016/2017, as a mentor for SciRuby organization), developing
+      open source (Ruby Association Grant 2015)."
+    talk_title: The Curious Case of Wikipedia Parsing
+    talk_description: A case study of developing Wikipedia client/parser for structured
+      information extraction, or How we are making entire world common knowledge information
+      machine accessible (from Ruby). Includes investigation of parser development
+      for semi-structured markup and semantic API design.
+    talk_support_docs: The Curious Case Of Wikipedia Parsing
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Valentin Fondaratov
+    speaker_bio: Having spent some time in ACM ICPC competitions, social network development
+      and bioinformatics, Valentin finally fulfilled himself helping other developers
+      write a better code. Now he is a RubyMine (Ruby/Rails IDE) team lead, but, more
+      importantly, JetBrains employee. Knows Java a little. Learning Kotlin and unicyclcing.
+    talk_title: Automated Type Contracts Generation for Ruby
+    talk_description: "Beauty and power of Ruby and Rails pays us back when it comes
+      to finding bugs in large codebases. Static analysis is hindered by magic DSLs
+      and patches. We may annotate the code with YARD which also enables improved
+      tooling such as code completion. Sadly, the benefits of this process rarely
+      compensate for the effort.\n                      \n                      In
+      this session we’ll see a new approach to type annotations generation. We'll
+      learn how to obtain this data from runtime, to cope with DSLs and monkey patching,
+      propose some tooling beyond YARD and create contracts like (String, T) -> T\n
+      \                     \n                      YARV hacking and minimized DFAs
+      included."
+    talk_support_docs: "Automated Type Contracts Generation\n                          \n
+      \                       \n                        \n                          \n
+      \                         goto.mov\n                          \n                        \n
+      \                       \n                          \n                          template_contracts.mov"
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Martin J. Dürst
+    speaker_bio: Martin is a Professor of Computer Science at Aoyama Gakuin University
+      in Japan. He has been one of the main drivers of Internationalization (I18N)
+      and the use of Unicode on the Web and the Internet. He published the first proposals
+      for DNS I18N and for NFC character normalization, and is the main author of
+      the W3C Character Model and the IRI specification (RFC 3987). Since 2007, he
+      and his students have contributed to the implementation of Ruby, mostly in the
+      area of I18N.
+    talk_title: Regular Expressions Inside Out
+    talk_description: |-
+      Regular expressions are a very important part of the toolkit of every Ruby programmer. This talk will help improve your understanding of regular expressions, including how to use them from Ruby, and how they are implemented.
+                            Examples will include things Ruby can do but other programming languages can't, huge regular expressions, substitutions that change as we go, and performance improvements for future Ruby versions.
+    talk_support_docs: Regular Expressions Inside Out
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Yuki Nishijima
+    speaker_bio: Yuki is a Rubyist who was raised in Tokyo and a software engineer
+      at Artsy in New York. He is a Ruby committer, the creator of the did_you_mean
+      gem, maintainer of the Kaminari gem, and frequent contributor to many open source
+      projects including Rails.
+    talk_title: Static Typo Checker in Ruby
+    talk_description: "Since 2.3.0, Ruby comes with a dynamic typo checker called
+      the did_you_mean gem, which helps find a bug caused by a typo. However, there's
+      one argument against its design: it runs a naming check at runtime. \n                      \n
+      \                     So what makes it difficult to implement a static typo
+      checker? What are the technical challenges to build it? Is Type really necessary?
+      In this talk, we'll discuss techniques for how to write a static typo checker
+      by looking at examples that find an undefined method without running Ruby code.
+      Join us to learn about the future of Ruby's typo checker."
+    talk_support_docs: Static typo checker
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Tanaka Akira
+    speaker_bio: |-
+      Ruby committer,
+                                Researcher of National Institute of Advanced Industrial Science and Technology (AIST)
+    talk_title: Ruby Extension Library Verified using Coq Proof-assistant
+    talk_description: |-
+      Ruby extension library is written in C.
+                            C is great because it is fast and easy to access low-level features of OS and CPU.
+                            However it is dangerous and error-prone:
+                            it is difficult to avoid failures such as integer overflow and buffer overrun.
+                            We explain a method to generate C functions verified using Coq proof-assistant with Coq plugins we developed.
+                            We can verify safety (absence of failures) and correctness (functions works as expected) in Coq.
+                            The generated functions can be used in Ruby extension library.
+                            This provides a way to develop trustful Ruby extension library.
+                            Supplement material: https://github.com/akr/coq-html-escape
+    talk_support_docs: Ruby Extension Library Verified using Coq Proof-assistant
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Masataka Kuwabara
+    speaker_bio: Software Engineer at Actcat Inc. / RuboCop contributor(100+ commits)
+      / Reek collaborator
+    talk_title: Writing Lint for Ruby
+    talk_description: "This talk describes how to write Lint for Ruby program.\n                      \n
+      \                     Lint finds bugs from code automatically. So, if you can
+      write Lint, you can reduce bugs from your code automatically.\n                      This
+      talk includes the following topics.\n                      \n                      \n
+      \                     Implementation of existing Lint such as RuboCop and Reek.\n
+      \                     How to create new Lint or add a new rule to existing Lint
+      yourself."
+    talk_support_docs: Writing Lint for Ruby
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Julian Nadeau
+    speaker_bio: Julian is a Production Engineer at Shopify working on developer productivity
+      and experience. Working on the Shopify application, one of the larger Ruby apps
+      out there, has provided a good look into performance related topics in the Ruby
+      ecosystem that he is anxious to share.
+    talk_title: 'Busting Performance Bottlenecks: Improving Boot Time by 60%'
+    talk_description: 'Lengthy application boot times cause developers to quickly
+      lose context and view applications in a negative light, which in turn costs
+      organizations a lot of money and productivity. We found that there were a few
+      areas that impacted boot time: compiling Ruby bytecode, serializing configurations,
+      looking up files and constants, autoloading files, and booting Bundler. This
+      talk focuses on our strategies and solutions which improved our boot time by
+      60%. Attendees will leave with knowledge of ways to find and mitigate their
+      own startup performance bottlenecks.'
+    talk_support_docs: Busting Performance Bottlenecks Decreasing Ruby Boot time by
+      60%
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Godfrey Chan
+    speaker_bio: Godfrey Chan is a member of the Ember.js core team and a Ruby on
+      Rails core team alumni. He currently works at Tilde as an in-house Canadian.
+      In his previous life, he was also an award-winning WordPress™ plugin author.
+    talk_title: 'Bending The Curve: Putting Rust in Ruby with Helix'
+    talk_description: Two years ago at RubyKaigi, we demonstrated our initial work
+      on Helix, an FFI toolkit that makes it easy for anyone to write Ruby native
+      extensions in Rust. In this talk, we will focus on the challenges and lessons
+      we learned while developing Helix. What did it take to fuse the two languages
+      and still be able to take advantage of their unique features and benefits? How
+      do we distribute the extensions to our end-users? Let's find out!
+    talk_support_docs: 'Bending The Curve: Putting Rust in Ruby with Helix'
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Fumiaki MATSUSHIMA
+    speaker_bio: |-
+      Fumiaki is a developer at Quipper in Tokyo and an organizer of Nishinippori.rb.
+                                He's mainly developing web applications with Ruby on Rails for Quipper.
+                                His main interest is creating a productive development environment.
+    talk_title: Ruby Language Server
+    talk_description: "This talk describes a ruby language server implementation I
+      created.\n                      I want to increase developers interested in
+      Ruby language server\n                      because I hope it will improve Ruby
+      development experience.\n                      \n                      In last
+      year, Microsoft published Language Server Protocol.\n                      This
+      protocol is created to communicate between editors and language servers which
+      provide useful information for development (ex. linting, completion, method
+      definition).\n                      \n                      In this talk, I'll
+      show you why it is important to create language server for Ruby community and
+      how it's implemented."
+    talk_support_docs: Ruby Language Server
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Mai Nguyen
+    speaker_bio: After several years in Java and Ruby software development in Washington,
+      DC, Mai left IT to pursue her passion for food and wine. She earned a  Masters
+      degree in wine science at the University of Adelaide, and continued on her journey,
+      working in wine production in Australia, France, California, and New Zealand.
+      Mai is now based in Wellington, and has since returned to the tech industry.
+      Since then, she has been exploring ways to use technology to make wine more
+      accessible to the public.
+    talk_title: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
+    talk_description: To use machine learning effectively, you have to understand
+      its strengths, limitations and look for creative ways to apply it. Even if you
+      are already familiar with machine learning, we can all learn more! Let me show
+      you how I have used machine learning to build a bot that can suggest a wine
+      to accompany your next meal.
+    talk_support_docs: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Yurie Yamane
+    speaker_bio: |-
+      "nora" mrubyist.
+                                A member of Team Yamanekko.
+                                A member of TOPPERS Project.
+    talk_title: 'Write once, run on every boards: portable mruby'
+    talk_description: |-
+      In embedded programming, the development environment and libraries we use to program are different depending on hardware.
+                            So, we have to make different programs for each hardware.
+                            Would not it be nice if CRuby works on Mac and Windows, even if the hardware is different, would the same mruby program run?
+                            I have a plan off platform to make one same Ruby code run on various microcontrollers.
+                            In this session, I will introduce an example of running Ruby code on several microcomputers.
+    talk_support_docs: 
+    talk_video: ''
+- talk: []
+- talk: []
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Aaron Patterson
+    speaker_bio: Aaron works for GitHub.  He is on the Ruby core team, the Rails core
+      team, and the team that takes care of his cat, Gorby puff.   Someday he will
+      find the perfect safety gear to wear while extreme programming.
+    talk_title: Compacting GC in MRI
+    talk_description: We will talk about implementing a compacting GC for MRI.  This
+      talk will cover compaction algorithms, along with implementation details, and
+      challenges specific to MRI.
+    talk_support_docs: Building a Compacting GC
+    talk_video: ''
+- talk: []
+- talk: []
+- talk: []
+- talk: []
+- talk: []
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: YUKI TORII
+    speaker_bio: a Rails Developer. translated "Hello Ruby" series, programming picture
+      books for children written by Linda Liukas, and "Programming Elixir" written
+      by Dave Thomas into Japanese. one of the members of RailsGirls in JP.
+    talk_title: Pattern Matching in Ruby
+    talk_description: |-
+      Do you want pattern matching in Ruby? I want.
+                            It will make Ruby more elegant, more useful, and more comfortable.
+                            So in this talk, I'll propose a specification about pattern matching in Ruby and will show my implementation in parse.y (a part of them).
+    talk_support_docs: Pattern Matching in Ruby
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: ITOYANAGI Sakura
+    speaker_bio: ''
+    talk_title: Ruby Parser In IRB 20th Anniversary...Now Let Time Resume
+    talk_description: "IRB has an internal Ruby code parser by pure Ruby. It's contributing
+      greatly to some Ruby tools. A part of them is RDoc. RDoc uses forked Ruby parser
+      of IRB. It is great works, but so legacy. The maintenance cost for new Ruby
+      syntax continues to increase. For example, Ruby 2.1 supports new feature <visibility>
+      def method definition, but RDoc supports it after Ruby 2.4.\n                      \n
+      \                     I provide a solution for it. After Ruby 1.9, Ripper is
+      adopted as standard library. Ripper is a parser for Ruby code, it uses parse.y
+      of CRuby in common. It's perfect for supporting latest Ruby syntax."
+    talk_support_docs: 
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Colby Swandale
+    speaker_bio: Software Developer at Marketplacer in Melbourne, Australia. I'm passionate
+      about open source and currently serving on the Bundler core team.
+    talk_title: Bundler 2
+    talk_description: The Bundler core team has been working hard on the next major
+      release of Bundler. We'll talk about what improvements we've been making, new
+      features & what we've removed.
+    talk_support_docs: What we’ve been up to with Bundler
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Charles Nutter
+    speaker_bio: Charles works on JVM languages at Red Hat.
+    talk_title: 'JRuby at 15 Years: Meeting the Challenges'
+    talk_description: 'JRuby has evolved a lot over 15 years. We''ve met challenges
+      of performance, native integration, and compatibility. What will we face in
+      the future? In this talk we''ll discuss today''s JRuby challenges: startup time,
+      code size, type specialization, and tooling. JRuby is the most-used alternative
+      Ruby, and with your help we''ll continue to make it the best way to run your
+      Ruby apps.'
+    talk_support_docs: 
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kentaro Goto / ごとけん
+    speaker_bio: Chief Engineer of Syngram, small web and graphic design company.
+      Ancient evangelist of Ruby. Author of some standard libraries in their original
+      version.
+    talk_title: Ruby in office time reboot
+    talk_description: 'I''ll introduce some uses of Ruby in my everyday office hours.
+      Various kind of tasks are helped by Ruby: deta processiong, scraping, excel
+      sheet generation, Instllation ruby, etc. This is a continuation of old my talk
+      series: Shigoto de tsukau Ruby.'
+    talk_support_docs: Ruby in office time reboot
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Nate Berkopec
+    speaker_bio: 'Nate is the owner of Speedshop, a Ruby on Rails performance consultancy.
+      Nate has worked for several startups, including Craft Coffee (YC S14), Unwind
+      Me (YC S14), Scaffold (500 Startups), Branch (now a division of Facebook) and
+      many others. Nate is a contributor to several open source projects, such as
+      Ruby on Rails, Puma and Sentry.       '
+    talk_title: Memory Fragmentation and Bloat in Ruby
+    talk_description: 'Memory is not a simple abstraction. The layers of indirection
+      between "Object.new" and flipping a bit in RAM are numerous: the Ruby heap,
+      the memory allocator, the kernel, the memory management unit and more. Unfortunately,
+      all of these layers can contribute to "bad behavior", resulting in memory fragmentation
+      and bloat. This talk examines each of the different layers of memory abstraction,
+      and how tuning and controlling them can result in reduced memory usage in Ruby
+      applications.'
+    talk_support_docs: Memory Fragmentation and Bloat in Ruby
+    talk_video: ''
+- talk: []
+- talk: []
+- talk: []
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Masatoshi SEKI
+    speaker_bio: Masatoshi Seki is a Ruby committer and the author of several Ruby
+      standard libraries including dRuby, ERB, and Rinda. He’s an expert in object-oriented
+      programming, distributed systems, and eXtreme programming. He has been speaking
+      at RubyKaigi every year since 2006 when the Kaigi first started.
+    talk_title: How to write synchronization mechanisms for Fiber
+    talk_description: "Ruby threads are amazing, but for some reason they don't seem
+      to be very popular. So I decided I'd try experimenting with programming multiple
+      independent execution flows in a single thread using Fibers.\n                      \n
+      \                     In this talk, I'll first explain an idiom for easily writing
+      synchronization mechanisms between Fibers. Then I will explain in detail an
+      example which combines a framework abstracting 'select' with the Fiber idiom
+      to achieve blocking-like non-blocking IO. I'll explain this using actual code
+      from examples of timer-based periodic processing and simple TCP/IP server programming,
+      to an over-the-top example running WEBrick on a single thread (using Fiber to
+      handle multiple clients synchronously). I'll also explain ways to combine this
+      with threads.\n                      \n                      In the talk I'd
+      like to present the following:\n                      * an example of select
+      abstraction\n                      * some essential features for Fibers"
+    talk_support_docs: How to write synchronization mechanisms for Fiber
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kouji Takao
+    speaker_bio: President of Ruby Programming Shounendan.
+    talk_title: 'Smalruby : The neat thing to connect Rubyists and Scratchers'
+    talk_description: "The Smalruby is a 2D game development library that aims to
+      be compatible with Scratch (Scratch is most famous visual programming language:
+      https://scratch.mit.edu/).\n                      \n                      Reacently,
+      programming education for kids is expanding rapidly and Scratch is ususally
+      a first-contact programming language for them.\n                      Some kids,
+      good Scratchers, try to learn a text-based programming languege.\n                      \n
+      \                     Smalruby helps to make Scratcher Rubyist!\n                      \n
+      \                     This talk includes the following topics:\n                      \n
+      \                     \n                      The recent situation of programming
+      education for kids.\n                      Smalruby's features.\n                      Smalruby
+      inside."
+    talk_support_docs: Smalruby - The neat thing to connect Rubyists and Scratchers
+      -
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Kevin Menard
+    speaker_bio: Kevin is a researcher at Oracle Labs where he works as part of a
+      team developing a high performance Ruby implementation called TruffleRuby. He’s
+      been involved with the Ruby community since 2008 and has been doing open source
+      in some capacity since 1999. In his spare time he’s a father of two and enjoys
+      playing drums.
+    talk_title: Improving TruffleRuby’s Startup Time with the SubstrateVM
+    talk_description: We’ve solved the startup time problem in TruffleRuby! In this
+      talk, I’ll introduce the SubstrateVM and how we make use of it to compile the
+      Java-based TruffleRuby to a static binary and massively improve our startup
+      time.
+    talk_support_docs: Improving TruffleRuby’s Startup Time with the SubstrateVM
+    talk_video: ''
+- talk:
+  - conference_name: RubyKaigi 2017
+    speaker_name: Vladimir Makarov
+    speaker_bio: Vladimir Makarov is a software developer. His major interests lays
+      in algorithms, programming languages, compilers and JITs. Vladimir finished
+      Moscow Institute of Physics and Technology and got his PhD in computer science
+      in Russian Academy of Sciences. Last 20 years he has been working on GCC in
+      RedHat, Canada. Vladimir started his work on Ruby MRI in 2015.  His MRI projects
+      are new hash tables and ongoing implementation of new VM instructions and JIT.
+      Vladimir lives in Toronto, Canada.
+    talk_title: Towards Ruby 3x3 performance
+    talk_description: "Ruby 3x3 project has a very ambitious goal to improve MRI performance
+      in 3 times in comparison with MRI version 2.0.\n                      \n                      This
+      talk is about my attempt to achieve this goal in a project to implement RTL
+      VM instructions and JIT in MRI VM. The project can be found on https://github.com/vnmakarov/ruby.\n
+      \                     \n                      We will talk about the project
+      motivation, goals, and approaches, and the current state of the project. Performance
+      comparison with JRuby, Graal/Truffle Ruby, and OMR Ruby and future directions
+      of the project will be given too."
+    talk_support_docs: Towards Ruby3x3 Performance - Introducing RTL and MJIT
+    talk_video: ''
