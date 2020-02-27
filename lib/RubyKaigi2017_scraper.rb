@@ -21,7 +21,7 @@ class Scraper_RubyKaigi2017
                     talk_title "css=.presentation-content__title"
                     talk_description "css=.presentation-content__description"
                     talk_support_docs "css=.presentation-materials__list"
-                    talk_video ""
+                    talk_video "xpath=//div[@class='presentation-video__link']//a/@href"
                 end
             end
         end    

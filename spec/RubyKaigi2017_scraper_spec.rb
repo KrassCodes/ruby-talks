@@ -14,7 +14,7 @@ describe Scraper_RubyKaigi2017 do
                  "talk_description"=>"Nobu's keynote speech",
                  "talk_support_docs"=>"Making Ruby? ゆるふわRuby生活",
                  "talk_title"=>"Keynote",
-                 "talk_video"=>"")
+                 "talk_video"=>"https://www.youtube.com/watch?v=Bt-PvFLbMbU")
         }
             expect(subject.scrape).to include(expected)
     end

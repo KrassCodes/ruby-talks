@@ -6,7 +6,7 @@
     talk_title: Keynote
     talk_description: Nobu's keynote speech
     talk_support_docs: Making Ruby? ゆるふわRuby生活
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=Bt-PvFLbMbU
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Koichi Sasada
@@ -27,7 +27,7 @@
       to use Fiber#transfer? How to implement fibers and how to speed up them? Also
       I introduce new proposal \"auto-Fiber\" and this discussion."
     talk_support_docs: Fiber in the 10th year
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=pgFx8DFjN8M
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Takafumi ONAKA
@@ -48,7 +48,7 @@
       \                     There were many challenges such as how to communicate
       at the interface boundary, how to implement without any mistakes, etc."
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=a28jJ62ZfZM
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Mat Schaffer
@@ -65,7 +65,7 @@
       of running a volunteer-based Ruby project, and our plans for future expansion
       into tracking both radiation and air quality data."
     talk_support_docs: Mapping your world with Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=Qk3VSCDZITs
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Noah Gibbs
@@ -79,7 +79,7 @@
       slow requests, garbage collection, warmup iterations and more. You'll see how
       to use this benchmark to test your own Ruby optimizations.
     talk_support_docs: How Close Is Ruby 3x3 for Real Web Apps?
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=xZ5mw3x2pdo
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Shugo Maeda
@@ -94,7 +94,7 @@
       \                     I also talk about Law, Chaos, and the Cosmic Balance through
       the design and implementation of Textbringer and Mournmail."
     talk_support_docs: Handling mails on a text editor
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=pvSOWiVB-KA
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Sameer Deshmukh
@@ -109,7 +109,7 @@
       - a new programming language that compiles to C, looks almost exactly like Ruby
       and is specifically designed for supercharging your Ruby code with minimal effort.
     talk_support_docs: Ruby Kaigi 2017 - C how to supercharge your Ruby with Rubex
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=pZSuuyiQNZk
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Yoh Osaki
@@ -125,7 +125,7 @@
                             Also, by sharing the server-side objects among multiple clients, it can be applied to collaborative applications like Google Apps.
                             This talk will explain the implementation of dRuby on Opal and demonstrate the collaborative application.
     talk_support_docs: dRuby on Browser
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=Tgq5GhagmcU
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: SHIBATA Hiroshi
@@ -145,7 +145,7 @@
       Finally, I will also introduce the new features of Ruby 2.5\n                      and
       3.0."
     talk_support_docs: Gemification for Ruby 2.5/3.0
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=VKm93Mwe__k
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kevin Deisz
@@ -161,7 +161,7 @@
       talk demonstrates how to integrate this into your own workflows and the exciting
       possibilities this enables.
     talk_support_docs: Compiling Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=B3Uf-aHZwmw
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Julian Cheal
@@ -176,7 +176,7 @@
       tools to train a neural network on human-generated Electronic Dance Music (EDM),
       then see what sorts of music the machine dreams up.'
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=OfDBRfmVFHk
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Shizuo Fujita
@@ -188,7 +188,7 @@
       Ruby internal to realize it.\n                      \n                      This
       talk describes how optimized Ruby internal at Ruby 2.5."
     talk_support_docs: How to optimize Ruby internal
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=4VOEdd-BYHE
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Anton Davydov
@@ -200,7 +200,7 @@
       framework is not worth your attention. Besides old approaches, you can also
       find new interesting solutions.
     talk_support_docs: viewing ruby blossom kaigi2017
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=aYboQzyIoPc
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kenta Murata
@@ -224,7 +224,7 @@
       ecosystem for Ruby by encouraging development of missing tools, documentation,
       and reporting on feeling of use and bugs."
     talk_support_docs: Development of Data Science Ecosystem for Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=U9GdgZowmGY
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Ritta Narita
@@ -242,7 +242,7 @@
       for mruby parallel processing/asynchronous processing. And also, I'll show benchmarks
       of actual product."
     talk_support_docs: mruby gateway for huge amount of realtime data processing
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=7DuwISRyqGE
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Stan Lo
@@ -263,7 +263,7 @@
       \                     For leanring more about Goby, please also checkout our
       Gitbook (constantly updated!)"
     talk_support_docs: Goby and its compiler
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=GRNlTWzoC74
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Yukihiro "Matz" Matsumoto
@@ -271,7 +271,7 @@
     talk_title: Keynote
     talk_description: TBD
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=OnDSm-GZCko
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Keiju Ishitsuka
@@ -288,7 +288,7 @@
       Rubyの機能を実現しています. また, Ruby操作から自然にshell操作に変換可能な言語です. \n                      Reishは現在開発中です.
       ReishはIrbと使い方が似ていて, その開発からいろいろな知見を得ることができます。それを基にIrbの次世代の構想をお話しします."
     talk_support_docs: 'Irb 20th anniversary memorial session: Reish and Irb2!?'
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=mS7fBsBF_gg
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Satoshi "moris" Tagomori
@@ -306,7 +306,7 @@
       \                     \n                      Providing HTTP API in a daemon\n
       \                     Serializing/Deserializing Data\n                      Performance"
     talk_support_docs: Ruby and Distributed Storage Systems
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=KrWhhgWHTwE
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Delton Ding
@@ -324,7 +324,7 @@
       business models while programming as usual, but the performance may boost to
       5 times faster or more without any hesitation."
     talk_support_docs: High Concurrent Ruby Web Development Without Fear
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=L_DRmV3LMYA
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kouhei Sutou
@@ -345,7 +345,7 @@
       cost. Other approaches need more works for Ruby evolution such as introduces
       new syntax and new API."
     talk_support_docs: 'Improve extension API: C++ as better language for extension'
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=gfoizFzJ-oI
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Satoshi "moris" Tagomori
@@ -363,7 +363,7 @@
       \                     \n                      Providing HTTP API in a daemon\n
       \                     Serializing/Deserializing Data\n                      Performance"
     talk_support_docs: Ruby and Distributed Storage Systems
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=KrWhhgWHTwE
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Victor Shepelev
@@ -378,7 +378,7 @@
       machine accessible (from Ruby). Includes investigation of parser development
       for semi-structured markup and semantic API design.
     talk_support_docs: The Curious Case Of Wikipedia Parsing
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=oqsX8kNq94I
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Valentin Fondaratov
@@ -401,7 +401,7 @@
       \                       \n                        \n                          \n
       \                         goto.mov\n                          \n                        \n
       \                       \n                          \n                          template_contracts.mov"
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=JS6m2gke0Ic
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Martin J. Dürst
@@ -417,7 +417,7 @@
       Regular expressions are a very important part of the toolkit of every Ruby programmer. This talk will help improve your understanding of regular expressions, including how to use them from Ruby, and how they are implemented.
                             Examples will include things Ruby can do but other programming languages can't, huge regular expressions, substitutions that change as we go, and performance improvements for future Ruby versions.
     talk_support_docs: Regular Expressions Inside Out
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=sUdZ8s4GbnE
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Yuki Nishijima
@@ -435,7 +435,7 @@
       by looking at examples that find an undefined method without running Ruby code.
       Join us to learn about the future of Ruby's typo checker."
     talk_support_docs: Static typo checker
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=k9WEDRMvanM
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Tanaka Akira
@@ -454,7 +454,7 @@
                             This provides a way to develop trustful Ruby extension library.
                             Supplement material: https://github.com/akr/coq-html-escape
     talk_support_docs: Ruby Extension Library Verified using Coq Proof-assistant
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=berjYyI5Bys
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Masataka Kuwabara
@@ -469,7 +469,7 @@
       \                     How to create new Lint or add a new rule to existing Lint
       yourself."
     talk_support_docs: Writing Lint for Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=xr3uDzQIuBA
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Julian Nadeau
@@ -488,7 +488,7 @@
       own startup performance bottlenecks.'
     talk_support_docs: Busting Performance Bottlenecks Decreasing Ruby Boot time by
       60%
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=8BJKrx6rsM0
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Godfrey Chan
@@ -503,7 +503,7 @@
       and still be able to take advantage of their unique features and benefits? How
       do we distribute the extensions to our end-users? Let's find out!
     talk_support_docs: 'Bending The Curve: Putting Rust in Ruby with Helix'
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=M2erAV1CpRk
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Fumiaki MATSUSHIMA
@@ -523,7 +523,7 @@
       show you why it is important to create language server for Ruby community and
       how it's implemented."
     talk_support_docs: Ruby Language Server
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=spPAdvskyLI
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Mai Nguyen
@@ -541,7 +541,7 @@
       you how I have used machine learning to build a bot that can suggest a wine
       to accompany your next meal.
     talk_support_docs: 'Food, Wine and Machine Learning: Teaching a Bot to Taste'
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=FP5Zxd5o_4M
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Yurie Yamane
@@ -557,7 +557,7 @@
                             I have a plan off platform to make one same Ruby code run on various microcontrollers.
                             In this session, I will introduce an example of running Ruby code on several microcomputers.
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=DF4oLrc7KaE
 - talk: []
 - talk: []
 - talk:
@@ -571,7 +571,7 @@
       talk will cover compaction algorithms, along with implementation details, and
       challenges specific to MRI.
     talk_support_docs: Building a Compacting GC
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=AuuYQaoqr24
 - talk: []
 - talk: []
 - talk: []
@@ -589,7 +589,7 @@
                             It will make Ruby more elegant, more useful, and more comfortable.
                             So in this talk, I'll propose a specification about pattern matching in Ruby and will show my implementation in parse.y (a part of them).
     talk_support_docs: Pattern Matching in Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=1m4IPJH0k0E
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: ITOYANAGI Sakura
@@ -604,7 +604,7 @@
       adopted as standard library. Ripper is a parser for Ruby code, it uses parse.y
       of CRuby in common. It's perfect for supporting latest Ruby syntax."
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=fZGyXwiFNAo
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Colby Swandale
@@ -615,7 +615,7 @@
       release of Bundler. We'll talk about what improvements we've been making, new
       features & what we've removed.
     talk_support_docs: What we’ve been up to with Bundler
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=sZX7SK3hxk4
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Charles Nutter
@@ -628,7 +628,7 @@
       Ruby, and with your help we''ll continue to make it the best way to run your
       Ruby apps.'
     talk_support_docs: 
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=rkvrikvoYPQ
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kentaro Goto / ごとけん
@@ -641,7 +641,7 @@
       sheet generation, Instllation ruby, etc. This is a continuation of old my talk
       series: Shigoto de tsukau Ruby.'
     talk_support_docs: Ruby in office time reboot
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=PAQwlSfRjko
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Nate Berkopec
@@ -659,7 +659,7 @@
       and how tuning and controlling them can result in reduced memory usage in Ruby
       applications.'
     talk_support_docs: Memory Fragmentation and Bloat in Ruby
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=eBmM-yWPeMw
 - talk: []
 - talk: []
 - talk: []
@@ -685,7 +685,7 @@
       like to present the following:\n                      * an example of select
       abstraction\n                      * some essential features for Fibers"
     talk_support_docs: How to write synchronization mechanisms for Fiber
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=0mDnZ0V9OSA
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kouji Takao
@@ -704,7 +704,7 @@
       inside."
     talk_support_docs: Smalruby - The neat thing to connect Rubyists and Scratchers
       -
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=U3pre3Bv9rk
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Kevin Menard
@@ -719,7 +719,7 @@
       Java-based TruffleRuby to a static binary and massively improve our startup
       time.
     talk_support_docs: Improving TruffleRuby’s Startup Time with the SubstrateVM
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=5Ik2qCTmeN0
 - talk:
   - conference_name: RubyKaigi 2017
     speaker_name: Vladimir Makarov
@@ -740,4 +740,4 @@
       comparison with JRuby, Graal/Truffle Ruby, and OMR Ruby and future directions
       of the project will be given too."
     talk_support_docs: Towards Ruby3x3 Performance - Introducing RTL and MJIT
-    talk_video: ''
+    talk_video: https://www.youtube.com/watch?v=qpZDw-p9yag
