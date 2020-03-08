@@ -4,18 +4,26 @@ layout: page
 
 <h3>ALL TALKS</h3>
 
-<h4>{{ site.data.talks.conference_name }}</h4>
-
 <ul>
-    {% for talks in site.data.talks.talks %}
+    {% for item in site.data.talks %}
         <li>
+            {% for subitem in item.talk %}
+        
                 <b>Title:</b> 
-                {{ talks.title }}
+                {{ subitem.conference_name }}
                 <br>
                 <b>Speaker:</b> 
-                <a href="https://github.com/{{ talks.github | slice: 1, talks.github.size }}">
-                    {{ talks.speaker }}
-                </a>
+                {{ subitem.speaker_name }}
+                <br>
+                <b>Bio:</b>
+                {{ subitem.speaker_bio }}
+                <br>
+                <b>Video:</b>
+                <a href="{{ subitem.talk_video }}"> {{ subitem.talk_video }} </a>
+                <br>
+                <br>
+                 
+                 {% endfor %}
         </li>
     {% endfor %}
 </ul>
