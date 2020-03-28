@@ -1,9 +1,9 @@
 require 'rspec'
-require './lib/RubyKaigi2017_scraper'
+require '../_src/2017_Ruby_Kaigi_scraper'
 require 'webmock/rspec'
 
-
-describe Scraper_RubyKaigi2017 do
+describe ScraperRubyKaigi2017 do
+    WebMock.allow_net_connect!
 
     it 'collects the speaker name, bio, talk title,talk description, link to supporting docs', :vcr do       
         expected = {

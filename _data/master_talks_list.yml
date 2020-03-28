@@ -1,0 +1,669 @@
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Eileen Uchitelle
+  speaker_bio: Eileen Uchitelle is an Senior Systems Engineer on the Platform Systems
+    Team at GitHub and a member of the Rails Core team. She's an avid contributor
+    to open source focusing on the Ruby on Rails framework and its dependencies. Eileen
+    is passionate about security, performance, and making open source communities
+    more sustainable and welcoming.
+  speaker_twitter: https://twitter.com/eileencodes
+  talk_title: The Past, Present, and Future of Rails at GitHub
+  talk_description: 'On August 15, 2018 GitHub accomplished a great feat: upgrading
+    our application from Rails 3.2 to 5.2. While this upgrade took a difficult year
+    and a half your upgrade doesn''t need to be this hard. In this talk we''ll look
+    at ways in which our upgrade was uniquely hard, how we accomplished this monumental
+    task, and what we''re doing to prevent hard upgrades in the future. We''ll take
+    a deep dive into why we upgraded Rails and our plans for upstreaming features
+    from the GitHub application into the Rails framework.'
+  talk_video: https://www.youtube-nocookie.com/embed/jxBAkhaRtNg
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Anastasia Chicu
+  speaker_bio: Anna is an Senior Quality Assurance Engineer at Freeletics with over
+    5 years of digital experience. Since joining Freeletics she has coordinated testing
+    activities, supported 4 development teams and worked closely with developers to
+    build a quality culture. Her past experience as an Agile Tester at XING and before
+    in an outsourcing company has helped her develop effective communication skills
+    in her team and with other departments. Her obscure debate passion, on the other
+    hand, determined her to trigger constructive discussions that add value to the
+    product and process.
+  speaker_twitter: https://twitter.com/anastasiachicu
+  talk_title: Improving development quality and speed with agile testing
+  talk_description: Releasing better software in ever shorter cycles demands an upgrade
+    in testing. The talk shares techniques from an agile tester that will help you
+    uncover risk early, improve product quality and build an approach to testing that
+    includes your whole team. Ready? Let’s enhance your testing starting now!
+  talk_video: https://www.youtube-nocookie.com/embed/RmJowZk5HVo
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Benoit Daloze
+  speaker_bio: Benoit Daloze is a PhD student in Linz, Austria, researching concurrency
+    in Ruby with TruffleRuby for the past several years. He has contributed to many
+    Ruby implementations, including TruffleRuby, MRI and JRuby. He is the maintainer
+    of ruby/spec, a test suite for the behavior of the Ruby programming language.
+  speaker_twitter: https://twitter.com/eregontp
+  talk_title: Parallel and Thread-Safe Ruby at High-Speed with TruffleRuby
+  talk_description: Array and Hash are used in every Ruby program, but current implementations
+    either prevent to use them in parallel (MRI) or lack thread-safety guarantees
+    (JRuby raises on concurrent Array#«). We show how to make Array and Hash thread-safe
+    while allowing Ruby collections to scale up to tens of cores!
+  talk_video: https://www.youtube-nocookie.com/embed/DolpDFfPdh0
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Betsy Haibel
+  speaker_bio: Betsy Haibel is the founding CTO of Cohere. She writes fiction and
+    nonfiction in English, Ruby, and Javascript – among other languages – and co-organizes
+    Learn Ruby in DC. Her lifelong ambitions? To meet a red panda, and to break down
+    barriers between “developers” and “users.”
+  speaker_twitter: https://twitter.com/betsythemuffin
+  talk_title: Teach by Learning; Lead by Teaching
+  talk_description: 'Ever caught yourself dictating code to a junior dev, rather than
+    pairing? Or resorted to saying “best practice”? Kill two birds with one stone:
+    use “dialogic teaching,” an adult-education technique. Let’s turn “technical leadership”
+    into a two-way process that surfaces tradeoffs and gets buy-in.'
+  talk_video: https://www.youtube-nocookie.com/embed/hTXqhp084KE
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Brittany Martin
+  speaker_bio: Brittany Martin works for the Pittsburgh Cultural Trust as the nonprofit’s
+    Lead Web Developer, where she is part of the team that develops, supports and
+    maintains the Trust’s ticketing and festival web applications. Under her alter-ego,
+    Norma Skates, Brittany plays and referees roller derby for the Little Steel Derby
+    Girls. She tweets at @brittjmartin and is the host of the 5by5 Ruby on Rails podcast.
+  speaker_twitter: https://twitter.com/brittjmartin
+  talk_title: Rails Against the Machine
+  talk_description: What should a development team do when a few bad users threaten
+    their application? Online businesses are plagued with trolls and bots. Learn how
+    your team can leverage features from RoR and AWS to monitor and (secretly) segment
+    bad actors using automation and behavioral triggers.
+  talk_video: https://www.youtube-nocookie.com/embed/bmIfkcAQEE8
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Emily Stolfo
+  speaker_bio: Emily Stolfo works at Elastic where she maintains the Ruby client and
+    the Rails integrations project. She's also an adjunct faculty of Columbia University
+    where she has taught courses on databases and web development. Although originally
+    from New York, she's currently living in Berlin where she likes to run long distances
+    and make sourdough bread.
+  speaker_twitter: https://twitter.com/EmStolfo
+  talk_title: 'Beauty and the Beast: your application and distributed systems'
+  talk_description: With more applications now using service-oriented architectures,
+    developers must know how to talk to distributed technologies and to handle errors
+    and failures. While you can usually depend on libraries to encapsulate such details,
+    it's important to understand and to be able to predict the behavior of your distributed
+    systems. This talk will arm you with algorithms and testing strategies so you
+    can tame your services and build robust applications.
+  talk_video: https://www.youtube-nocookie.com/embed/ex91n2XGes8
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Joy Heron
+  speaker_bio: Joy Heron is a consultant at INNOQ and develops software as a full-stack
+    developer. She is passionate about developing responsive web applications using
+    progressive enhancement and loves learning new things. Sketchnotes are a hobby.
+  speaker_twitter: https://twitter.com/iamjoyheron
+  talk_title: 'Web Components: Designing Frontends for Reusability'
+  talk_description: Have you ever tried to develop front end code that can be easily
+    used in multiple projects? Reinventing the wheel is no fun. In this talk, I will
+    use an example to share my design process for developing web components that are
+    accessible, pretty, and most importantly easy to reuse.
+  talk_video: https://www.youtube-nocookie.com/embed/164EjUObiT4
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Kinsey Ann Durham
+  speaker_bio: Kinsey Ann Durham is an engineer at DigitalOcean working remotely in
+    Denver, CO. She teaches students from around the globe how to write code through
+    a program called Bloc. She co-founded a non-profit called Kubmo in 2013 that teaches
+    and builds technology curriculum for women’s empowerment programs around the world.
+    She, also, helps run the Scholar and Guide Program for Ruby Central conferences.
+    In her free time, she enjoys fly fishing and adventuring in the Colorado outdoors
+    with her dog, Harleigh.
+  speaker_twitter: https://twitter.com/KinseyAnnDurham
+  talk_title: Breaking the Chains of Oppressive Software
+  talk_description: We have the power to stand up against oppression that exists in
+    our software. Data discrimination, biases in algorithms, etc. are becoming an
+    issue. You’ll learn about the biases we build, software that is bettering us and
+    what you can do about it, as a developer, to truly make a difference.
+  talk_video: https://www.youtube-nocookie.com/embed/8atSI4k87X8
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Ramón Huidobro
+  speaker_bio: Ramón Huidobro is a chilean kids’ coding instructor and freelance software
+    dev. He likes to introduce people to coding more than he enjoys coding itself.
+    If you want pointless Nintendo trivia, look no further than Ramón! You’ll probably
+    find him at a lot of conferences and has been told he has a distinctive laugh,
+    so he’s easy to spot, especially when wearing a onesie.
+  speaker_twitter: https://twitter.com/senorhuidobro
+  talk_title: Hardware hacking with your Rails app
+  talk_description: When working on a Rails app with lots of users and a plethora
+    of requests, you’ll likely soon be addressing how you can have dedicated custom
+    hardware for them.
+  talk_video: https://www.youtube-nocookie.com/embed/WoUL1pO99N8
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Samuel Giddins
+  speaker_bio: Samuel Giddins is a developer well-versed in the rituals of writing
+    developer tools that occasionally work. By day, Samuel works on making the mobile
+    developer experience at Square less arduous; by night he can be found breaking
+    Bundler and CocoaPods. Before this whole “developer” thing, Samuel studied in
+    the highly impractical Mathematics & Economics departments at UChicago, learning
+    subjects such as “numbers”, “social theory”, and “memes”. When not coding, Samuel
+    is often in the kitchen, marveling at the fact that dinner smells better than
+    it looks.
+  speaker_twitter: https://twitter.com/segiddins
+  talk_title: Making CocoaPods Fast with Modern Ruby Tooling
+  talk_description: Writing performant code is hard. Writing performant ruby code
+    that does lots of stuff is really hard. CocoaPods got to be pretty slow “at scale”,
+    and this is the story of how we made our pod install times bearable again.
+  talk_video: https://www.youtube-nocookie.com/embed/xMdUGh7x4so
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Tobias Pfeiffer
+  speaker_bio: Tobias Pfeiffer is a clean coder, Full Stack developer, Benchmarker
+    by passion, Rubyist, Elixir fan, learner, teacher and agile crafter by passion.
+    He organizes the Ruby User Group Berlin, maintains Shoes and benchee as well as
+    contributing to a variety of projects while thinking about new ideas to put into
+    code and push boundaries. He loves collaboratively creating just about anything
+    people enjoy. Currently he’s creating wonderful web applications, most recently
+    with Elixir and Phoenix refreshing his perspective on web applications.
+  speaker_twitter: https://twitter.com/pragtob
+  talk_title: Do You Need That Validation? Let Me Call You Back About It
+  talk_description: Rails apps start nice and cute. Fast forward a year and business
+    logic and view logic are entangled in our validations and callbacks - getting
+    in our way at every turn. Wasn’t this supposed to be easy?
+  talk_video: https://www.youtube-nocookie.com/embed/F05kXVqFWnc
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Ivo Anjo
+  speaker_bio: |-
+    Ivo Anjo is a software engineer with a passion for expressiveness, performance and concurrency; He likes going from exploring high-level techniques to write beautifully expressive code, to exploring low-level system details and how to get the most out of modern hardware.
+
+    When he started working with Ruby he quickly fell in love with its expressiveness, productivity and great community, and on his free time he enjoys contributing to open-source gems and blogging about his tech discoveries.
+
+    He's currently working as part of the Amazon Profiler team. They build tools and services to support Amazon’s engineering teams in getting the best out of their complex software architectures. As part of this work, he gets to use Ruby, Kotlin, Python and Java in new and challenging ways.
+  speaker_twitter: https://twitter.com/KnuX
+  talk_title: 'Kotlin for Rubyists: A journey'
+  talk_description: 'When I first saw Kotlin, I couldn’t help thinking I could do
+    the same with Ruby. But then it dawned on me: Here is language built for easily
+    replacing Java and javascript, that is a first-class citizen in android, can even
+    run natively…'
+  talk_video: 
+- conference_name: Ruby On Ice 2019
+  speaker_name: |-
+    By
+    Julian Fahrer
+  speaker_bio: Julian Fahrer is a Software Engineer, Online Educator, and Container
+    Enthusiast. He automates all the things and containerizes Ruby applications at
+    day. At night he sleeps. In between those times, he is busy climbing, hiking and
+    teaching people about Docker and Containers. His current life goal is to drastically
+    reduce the time he sits per day.
+  speaker_twitter: https://twitter.com/jufahr
+  talk_title: Containerized Ruby - A supercharged development process
+  talk_description: Running applications is not trivial. Even a simple Ruby application
+    has many requirements that we need to maintain. Imagine a world in which you can
+    package your application and run it wherever you want. All without going through
+    the hassle of installing a bunch of dependencies. This world exists!
+  talk_video: 
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Vaidehi Joshi //\n        \n          @vaidehijoshi"
+  speaker_bio: "Vaidehi Joshi //\n        \n          @vaidehijoshi\n        \n      \n
+    \     Creator of Base CS\n\n\n      \n\n      What are the semantics of failure
+    in distributed systems (how we identify failures and faults) and how to think
+    about what we really mean when we design towards fault-tolerant systems.\n\n\n
+    \     Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/vaidehijoshi
+  talk_title: Setting Up To Fail
+  talk_description: What do we really mean when we design towards fault-tolerant systems
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Gareth Marlow //\n        \n          @GarethMarlow"
+  speaker_bio: "Gareth Marlow //\n        \n          @GarethMarlow\n        \n      \n
+    \     Executive coach at eqsystems.io; formerly COO at Redgate Software; Father
+    of four; renaissance man.\n\n\n      \n\n      Practical tips for building a culture
+    of trust across your team, peers, investors, and company.\n\n\n      Friday, 5th
+    July 2019"
+  speaker_twitter: https://twitter.com/GarethMarlow
+  talk_title: Why Should You Care About Cultivating Trust?
+  talk_description: Practical tips for building a culture of trust across your team,
+    peers, investors, and company.
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Matthew Ruby Jacobs //\n        \n          @matthewrudy"
+  speaker_bio: "Matthew Ruby Jacobs //\n        \n          @matthewrudy\n        \n
+    \     \n      Engineer at Babylon Health, and Organiser of Hong Kong Code Conf.\n\n\n
+    \     \n\n      Sadly, Matthew died a few weeks after giving this presentation.
+    Matthew was well loved in the Ruby community, both in the UK and Hong Kong. He
+    will be missed.\n\nContent warning Matthew worked with the Department of Justice
+    on projects related to moving prisoners, this project was discussed during the
+    talk.\n\n\n\nA year ago I was looking for a job, and ended up taking a job as
+    a “Technical Architect”.\n\nBut what exactly is a Technical Architect?\n\nWeren’t
+    Software Architects a thing in the 90s, cast away when we learnt about Agile?\n\nIn
+    this talk I’m going to tell the story of my year in government as a Technical
+    Architect, and hopefully convince you that there is a place for just enough architecture
+    in modern software development.\n\nAnd maybe it’s a role you’d be interested in\n\n\n
+    \     Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/matthewrudy
+  talk_title: From Developer to Architect (and back again)
+  talk_description: Weren’t Software Architects a thing in the 90s, cast away when
+    we learnt about Agile?
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Amina Adewusi //\n        \n          @a_adewusi"
+  speaker_bio: "Amina Adewusi //\n        \n          @a_adewusi\n        \n      \n
+    \     Amina is an Associate Software Engineer at the Guardian in London. She seeks
+    to represent the voice of new developers in the software engineering industry
+    and is passionate about encouraging under-represented groups into tech.\n\n\n
+    \     \n\n      This is the story of how I struggled to get my first Junior Developer
+    role and turned to Open Source projects looking for help. We’ll learn how the
+    best GitHub repos are attracting new contributors, why developers early in their
+    coding journey can struggle to get to grips with a new repo and how you avoid
+    these stumbling blocks to create a vibrant open source project.\n\n\n      Friday,
+    5th July 2019"
+  speaker_twitter: https://twitter.com/a_adewusi
+  talk_title: Embracing Openness in Open Source
+  talk_description: How you avoid stumbling blocks when you start out in Open Source
+    projects
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Frederick Cheung //\n        \n          @fglc2"
+  speaker_bio: "Frederick Cheung //\n        \n          @fglc2\n        \n      \n
+    \     Ruby Hero, runner, cat servant & CTO at Dressipi\n\n\n      \n\n      How
+    do you find out why your code is slow? Profiling tools such as ruby-prof can help
+    you understand your code and get to the root of performance problems. Learn how
+    use ruby-prof and make sense of its output.\n\n\n      Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/fglc2
+  talk_title: Fixing Performance Problems with ruby-prof
+  talk_description: Ruby makes writing expressive code easy, but writing fast code
+    isn’t always easy and can be a bit of a black art.
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Sarah Mei //\n        \n          @sarahmei"
+  speaker_bio: "Sarah Mei //\n        \n          @sarahmei\n        \n      \n      Architect
+    at Salesforce UX, out of San Franciso. Director at Ruby Central (organisers of
+    RailsConf & RubyConf). Founder of Bridge Foundry (Rails Bridge).\n\n\n      \n\n
+    \     Nadia sits down for a chat with Sarah Mei.\n\n\n      Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/sarahmei
+  talk_title: Nadia chats with... Sarah Mei
+  talk_description: Nadia sits down for a chat with Sarah Mei
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Valerie Woolard Srinivasan //\n        \n          @valeriecodes"
+  speaker_bio: "Valerie Woolard Srinivasan //\n        \n          @valeriecodes\n
+    \       \n      \n      Valerie loves writing software, running marathons, and
+    baking desserts.\n\n\n      \n\n      We all know that testing is important. But
+    it’s also hard to get right. We’ll talk about how to write effective tests that
+    not only protect against defects in our code, but encourage us to write better
+    quality code to begin with.\n\nYou’ll leave this talk with ideas on the philosophies
+    that should inform your tests, and a good idea of what makes a good test suite.\n\n\n
+    \     Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/valeriecodes
+  talk_title: Better Coding Through Unit Tests
+  talk_description: We all know that testing is important. But it’s also hard to get
+    right.
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Sroop Sunar //\n        \n          @sroopsunar"
+  speaker_bio: "Sroop Sunar //\n        \n          @sroopsunar\n        \n      \n
+    \     Sroop Sunar is a Software Developer (and employee #1) at Peg. Before that,
+    she worked at Thoughtbot, and in a previous life was an illustrator and graphic
+    designer.\n\n\n      \n\n      As developers, we talk a lot about the topic of
+    clean code. We aspire for 100% test coverage, short reusable methods, we optimise
+    for readability and beauty - but does any of that actually matter if your codebase
+    is drowning in technical debt?\n\nShould we be aiming for clean code, or tidy
+    code? In this talk, you may discover that you are in fact a closet code slob,
+    contributing to the clutter of your codebase every single day.\n\nBut fear not,
+    because tidying a codebase is as simple as decluttering your home. Drawing on
+    lots of practical examples, this talk will arm you with some simple techniques
+    to permanently purge technical debt and be free from code-clutter forever.\n\n\n
+    \     Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/sroopsunar
+  talk_title: The Life Changing Magic of Tidying Technical Debt
+  talk_description: Should we be aiming for clean code, or tidy code?
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Noah Gibbs //\n        \n          @codefolio"
+  speaker_bio: "Noah Gibbs //\n        \n          @codefolio\n        \n      \n
+    \     Noah is a Ruby Fellow for AppFolio, working on the core Ruby language and
+    related tooling. After over 30 years of communicating with computers, Noah now
+    believes that communicating with humans may not be a passing fad, and he’s trying
+    it out.\n\n\n      \n\n      Ruby keeps getting faster. And people keep asking,
+    “but how fast is it for Rails?” Rails makes a great way to measure Ruby’s speed,
+    and how Ruby has changed version-by-version. Let’s look at six years of performance
+    for apps big and small.\n\nHow fast is 2.6.0? With JIT or not? How do I measure?
+    How close is Ruby 3x3? Should I upgrade?\n\n\n      Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/codefolio
+  talk_title: 'Six Years of Ruby Performance: A History'
+  talk_description: How fast is Ruby 2.6? How do I measure? How close is Ruby 3x3?
+    Should I upgrade?
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Alyssa Ross //\n        \n          @qyliss"
+  speaker_bio: "Alyssa Ross //\n        \n          @qyliss\n        \n      \n      A
+    free software developer on the Developer Platform team at FreeAgent, where she
+    has worked on Ruby’s standard libraries and other key components of the Ruby ecosystem.\n\n\n
+    \     \n\n      People sometimes say “it’s never a compiler error”. They don’t
+    mean it literally — what they mean is that it’s very tempting to blame the compiler
+    or interpreter for a bug that is actually in our own code. But sometimes, when
+    the stars align, there it is. The mythical interpreter bug.\n\nI’m going to show
+    you how I narrowed down from “the website is crashing on my computer” to a real,
+    live bug in the Ruby interpreter. We’ll look at how we can use techniques we already
+    know, like unit testing and git, in the unfamiliar context of Ruby’s C internals.
+    And, when we’ve finally figured out what’s causing our bug, we’ll go through the
+    bug reporting process and learn how to share our findings and help make Ruby better
+    for everyone.\n\n\n      Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/qyliss
+  talk_title: You may have encountered a bug in the Ruby interpreter
+  talk_description: People say “it’s never a compiler error”. But very occasionally...
+    it is.
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Matias Korhonen //\n        \n          @matiaskorhonen"
+  speaker_bio: "Matias Korhonen //\n        \n          @matiaskorhonen\n        \n
+    \     \n      Matias has been writing Ruby for almost a decade and in his spare
+    time he’s a beer enthusiast and general internet astronaut.\n\n\n      \n\n      Cast
+    your mind back to the year 1995. Gansta’s Paradise is the top hit of the year.
+    Friends is the hottest show on TV.\n\nAnd just days after I turn nine, Matz releases
+    Ruby publicly for the first time.\n\nIn this talk I go back to Ruby 0.95 and see
+    what it takes to get it running on modern hardware.\n\n\n      Friday, 5th July
+    2019"
+  speaker_twitter: https://twitter.com/matiaskorhonen
+  talk_title: Ruby like it’s 1995
+  talk_description: Running Ruby 0.95
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2019
+  speaker_name: "Aaron Patterson //\n        \n          @tenderlove"
+  speaker_bio: "Aaron Patterson //\n        \n          @tenderlove\n        \n      \n
+    \     Aaron is on the Ruby core team, the Rails core team, and the team that takes
+    care of his cat, Gorby puff.  During the day he works for a small technology company
+    called GitHub.  Someday he will find the perfect safety gear to wear while extreme
+    programming.\n\n\n      \n\n      It’s been said that programmers like garbage
+    collectors, so let’s take a look at Ruby’s GC! In this talk we’ll walk through
+    how Ruby allocates objects, then talk about how we can optimize object layout
+    and memory usage via compaction. Finally we’ll take a look at how to actually
+    build a compacting GC for Ruby as well as the interesting challenges that can
+    be found within.\n\n\n      Friday, 5th July 2019"
+  speaker_twitter: https://twitter.com/tenderlove
+  talk_title: Defragging Ruby
+  talk_description: It’s been said that programmers like garbage collectors, so let’s
+    take a look at Ruby’s GC!
+  talk_video: https://brightonruby.com/2019/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Sarah Mei //\n        \n          @sarahmei"
+  speaker_bio: "Sarah Mei //\n        \n          @sarahmei\n        \n      \n      Architect
+    at Salesforce UX, out of San Franciso. Director at Ruby Central (organisers of
+    RailsConf & RubyConf). Founder of Bridge Foundry (Rails Bridge).\n\n\n      \n\n
+    \     What they are, what they’re good for, how they’re traditionally specified
+    & enforced, and how the whole concept is evolving.\n\n\n      Friday, 6th July
+    2018"
+  speaker_twitter: https://twitter.com/sarahmei
+  talk_title: A Brief History of Types
+  talk_description: What they are, what they’re good for, how they’re traditionally
+    specified & enforced, and how the whole concept is evolving.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Katrina Owen //\n        \n          @kytrinyx"
+  speaker_bio: "Katrina Owen //\n        \n          @kytrinyx\n        \n      \n
+    \     An ecosystem engineer at GitHub and author. She accidentally became a developer
+    while pursuing a degree in molecular biology. When programming, her focus is on
+    automation, workflow optimization, and refactoring.\n\n\n      \n\n      As novices
+    we slowly and laboriously sift through a chaotic flood of\nminutia. To experts
+    the significant details are obvious. Irrelevant\ndetails fade to the background.
+    The novice receives a jumble of\nmeaningless impressions; the expert sees patterns
+    and meaning.\n\nSomehow experts have made the trek from “How could you possibly
+    tell?”\nto “How could you not?”. And they probably can’t tell you how they got\nthere.\n\nThis
+    talk examines the topic of perceptual learning through the lens\nof theory and
+    practice—research and anecdotes—and speculates how it\ncan be deployed strategically
+    to train new experts.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/kytrinyx
+  talk_title: Cultivating Instinct
+  talk_description: As novices we slowly and laboriously sift through a chaotic flood
+    of minutia. To experts the significant details are obvious. Irrelevant details
+    fade to the background.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Ashley Ellis Pierce //\n        \n          @aellispierce"
+  speaker_bio: "Ashley Ellis Pierce //\n        \n          @aellispierce\n        \n
+    \     \n      Ashley lives in Durham, NC and is an Application Engineer at GitHub.
+    She enjoys helping others learn to code and is the lead organizer for RailsBridge
+    Triangle and a mentor for Code the Dream\n\n\n      \n\n      Often we know that
+    our code needs refactoring, but we have no idea where to start. Maybe we studied
+    some common code smells and learned about the things that we should be avoiding,
+    but memorizing the rules doesn’t automatically lead to fixing all problems.\n\nIn
+    this talk, we explore how you can use Git to recognize and address violations
+    to each of the SOLID principles. Using diffs, commit history and pull requests
+    you can learn to recognize patterns in code that point to problems. These same
+    tools can help you correct those issues and write more maintainable code.\n\n\n
+    \     Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/aellispierce
+  talk_title: Git-driven Refactoring
+  talk_description: Often we know that our code needs refactoring, but we have no
+    idea where to start.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Ana Martínez //\n        \n          @anamma_06"
+  speaker_bio: "Ana Martínez //\n        \n          @anamma_06\n        \n      \n
+    \     Ana is in love the open source development. She is currently working at
+    SUSE on the Open Build Service frontend, one of the oldest Rails projects that
+    is still in use.\n\n\n      \n\n      This year both Ruby and I are turning 25
+    years old. We all also have to admit that at some point we have found, or written,
+    Ruby code that was not that great. Even the code that was pretty good at one point,
+    could now be improved, due to the evolution of Ruby.\n\nLet us refactor some code
+    in long-lived Ruby and Rails open source projects and what can we learn while
+    doing it.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/anamma_06
+  talk_title: Let’s Refactor Some Ruby Code
+  talk_description: Let us refactor some code in long-lived Ruby and Rails open source
+    projects and what can we learn while doing it.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Tekin Süleyman //\n        \n          @tekin"
+  speaker_bio: "Tekin Süleyman //\n        \n          @tekin\n        \n      \n
+    \     Tekin Suleyman is a freelance consultant who’s been shipping Ruby code for
+    over a decade. He’s worked with teams, large and small. He also runs the North
+    West Ruby User Group in Manchester.\n\n\n      \n\n      In one timeline a quick
+    path to clarity. In the other a long and painful journey trying to understand
+    the obscure intent of a line of code. The only difference between these two realities?
+    The revision history.\n\nThis is a talk about writing maintainable code. But rather
+    than the code itself, we’ll see the impact a codebase’s history can have on its
+    maintainability. We’ll explore the differences between a useful history and an
+    unhelpful one, and you’ll learn about the practices, tools and techniques that
+    can make the difference.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/tekin
+  talk_title: A Branch in Time
+  talk_description: A considered history of your code can be powerful. Learn tools
+    and techniques that can mean the difference between hours of frustration and a
+    quick path to clarity.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Nick Means //\n        \n          @nmeans"
+  speaker_bio: "Nick Means //\n        \n          @nmeans\n        \n      \n      Storyteller,
+    empathetic leader, student of disasters, builder of distributed teams. Unabashed
+    AV geek. VP of Engineering at Muve Health.\n\n\n      \n\n      \n\n\n      Friday,
+    6th July 2018"
+  speaker_twitter: https://twitter.com/nmeans
+  talk_title: Cockcroft’s Folly
+  talk_description: What can we learn from a British pioneer of the nuclear age.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Maria Gutierrez //\n        \n          @mariagutierrez"
+  speaker_bio: "Maria Gutierrez //\n        \n          @mariagutierrez\n        \n
+    \     \n      VP of Engineering at Edinburgh-based FreeAgent. Previously worked
+    at LivingSocial leading globally distributed teams, and at Adobe where she worked
+    in the developer technologies group. Also a Director of the WomenWhoCode Edinburgh
+    network.\n\n\n      \n\n      Distributed teams can have big benefits for both
+    employers and employees. But there are many challenges. Being successful requires
+    changes to work practices, communication, and style — and not just from the remote
+    people. Everyone will experience changes. It helps to be prepared … and most of
+    what we see being written and discussed is focused on remote workers, not the
+    organization that supports them.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/mariagutierrez
+  talk_title: A Clear-eyed Look at Distributed Teams
+  talk_description: Distributed teams can have big benefits for both employers and
+    employees. But there are many challenges.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Alex Balhatchet //\n        \n          @kaokun"
+  speaker_bio: "Alex Balhatchet //\n        \n          @kaokun\n        \n      \n
+    \     Senior software engineer at CharlieHR, building the HR software for teams
+    with big ideas. Previously CTO at Nestoria so ask me about writing Perl for a
+    decade before switching to Ruby :-)\n\n\n      \n\n      You might not realise
+    it, but your Ruby project probably relies on a popular configuration-first OSS
+    project. The tzdata library is updated regularly as time zones and daylight savings
+    rules change more often than you might think!\n\nBy building a project configuration
+    first, rather than focussing on one programming language, you can get a much wider
+    range of people contributing to your open source package. We built a Ruby gem
+    for public holidays that covered 71 countries. By converting it to a configuration
+    first project we were able to release packages for Ruby, Node.js and Perl so that
+    more people could use the data and we’d be more likely to get patches and bug
+    fixes.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/kaokun
+  talk_title: Configuration-first Open Source
+  talk_description: You might not realise it, but your Ruby project probably relies
+    on a popular configuration-first OSS project. The tzdata library is updated regularly
+    as time zones and daylight savings rules change more often than you might think!
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Alfredo Motta //\n        \n          @mottalrd"
+  speaker_bio: "Alfredo Motta //\n        \n          @mottalrd\n        \n      \n
+    \     CTO at CreditSpring, protecting people from unexpected financial emergencies.
+    Loves data and scientific experimentation over intuition and learning over being
+    too serious.\n\n\n      \n\n      Event sourcing is a design pattern to help build
+    applications that are focused on the domain and easy to extend.\n\nThe key idea
+    is to use a persistent event log to store every change to your data as an alternative
+    the more classical relational database model for Rails applications. In one sentence,
+    it is a git-like approach to manage your data.\n\nOnce you accept the premise
+    of having an event log you can use it to extend your application in all sort of
+    creative ways. You can use it to synchronize the data between your microservices,
+    or you can trigger side effects without cluttering your controllers, or you can
+    build data views optimized for your query needs.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/mottalrd
+  talk_title: Introduction to Event Sourcing for Rubyists
+  talk_description: Event sourcing is a git-like approach to data storage, a log of
+    change rather than a database.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Danny Berzon //\n        \n          @DvBerzon"
+  speaker_bio: "Danny Berzon //\n        \n          @DvBerzon\n        \n      \n
+    \     Danny has worked in Web Development since late last century, Java and Servlets
+    then Ruby on Rails. Currently in a permanent position at Ocasta Studios.\n\n\n
+    \     \n\n      How a single line of ruby code, the flip of a coin and some bad
+    luck lead to an understanding of how random numbers really work, and why fairness
+    isn’t always the best policy.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/DvBerzon
+  talk_title: Random Thoughts
+  talk_description: How a single line of ruby code, the flip of a coin and some bad
+    luck lead to an understanding of how random numbers really work, and why fairness
+    isn’t always the best policy.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Andrew Faraday //\n        \n          @marmitejunction"
+  speaker_bio: "Andrew Faraday //\n        \n          @marmitejunction\n        \n
+    \     \n      Rubyist, music graduate, autistic, international panel game host,
+    kidney donor, follower of Christ. Mostly tweets about politics and software. Host
+    of Just a (Ruby) Minute.\n\n\n      \n\n      You may remember Andrew from previous
+    Brighton Ruby conferences (as well as those in London, Scotland, and the USA)
+    where he’s been providing light relief in the form of the panel game Just A Minute.\n\nThis
+    year, instead, he’ll be revealing the technology behind the show, and sharing
+    what he’s learned from the project.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/marmitejunction
+  talk_title: The Best Worst Software I’ve Ever Written
+  talk_description: No Just a (Ruby) Minute this year, but how did the game come to
+    be?
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Paula Muldoon //\n        \n          @fiddlerscode"
+  speaker_bio: "Paula Muldoon //\n        \n          @fiddlerscode\n        \n      \n
+    \     Engineer at Kurt Geiger, graduated from Makers Academy and University of
+    Michigan. Code by day, music by night.\n\n\n      \n\n      A violin and a testing
+    framework.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/fiddlerscode
+  talk_title: The Ballad of RSpec
+  talk_description: A violin and a testing framework.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Hannah Dwan //\n        \n          @hoeyboey"
+  speaker_bio: "Hannah Dwan //\n        \n          @hoeyboey\n        \n      \n
+    \     Hannah Dwan is a developer at Happy Bear Software! She used to be a games
+    journalist, but abandoned the glitz and glamour of esports in favour of pull requests
+    and documentation.\n\n\n      \n\n      The Matasano Crypto Challenges - or Cryptopals,
+    to give them their much kinder, Saturday morning cartoon name - are a series of
+    coding challenges, made by Matasano Security (now a part of NCC group). They challenge
+    you to think about cryptography, security, and teach you the motions of how to
+    encrypt, decrypt, and attack.\n\nIt’s not wildly complex, it’s not a set of logic
+    systems above everything you already know if you can put together FizzBuzz. As
+    an apprentice, a key part of my job is to learn - Cryptopals, regardless of your
+    own expertise, is one of the most rewarding ways to learn Ruby, to learn logic,
+    and to learn how all the encryption you rely on works.\n\n\n      Friday, 6th
+    July 2018"
+  speaker_twitter: https://twitter.com/hoeyboey
+  talk_title: Cryptography Lessons
+  talk_description: Cryptopals is one of the most rewarding ways to learn Ruby, to
+    learn logic and to learn how all the encryption you rely on works.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Piotr Murach //\n        \n          @piotr_murach"
+  speaker_bio: "Piotr Murach //\n        \n          @piotr_murach\n        \n      \n
+    \     Software engineer by day, open sourcer by night, mathematician by design
+    and human languages enthusiast life, Piotr has released many open source projects
+    such as tty, finite_machine, github_api. In recent years, Piotr has been obsessively
+    thinking about optimising Ruby terminal applications development.\n\n\n      \n\n
+    \     What if there was a set of simple and potent gems that could exponentially
+    increase productivity when building modern terminal applications such as Bundler,
+    in next to no time?\n\nIf you’re curious about creating your own tools and games
+    in the terminal, I can show you how to harness this power and become a command
+    line applications alchemist. Learn how to mix and match various TTY potions to
+    come up with a secret mixture for analysing cryptocurrency gold or breathing life
+    into the ASCII characters.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/piotr_murach
+  talk_title: The Ruby Alchemist’s Secret Potion
+  talk_description: What if there was a set of simple and potent gems that could exponentially
+    increase productivity when building modern terminal applications such as Bundler,
+    in next to no time?
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Alex Peattie //\n        \n          @alexpeattie"
+  speaker_bio: "Alex Peattie //\n        \n          @alexpeattie\n        \n      \n
+    \     Alex is the co-founder and CTO of Peg, a technology platform helping multinational
+    brands and agencies to find and work with top YouTubers.\n\n\n      \n\n      The
+    average salary for a Ruby programmer (according to Techworld) is £52k, but the
+    average net worth of a “J. K. Rowling” is more than $1bn! Clearly we’re in the
+    wrong business; we shouldn’t be writing Ruby code, we should be writing Harry
+    Potter books.\n\nThe bad news is that writing novels beloved by children across
+    the world is hard. The good news is we can get Ruby to do it for us! It turns
+    out that Ruby and the dark arts of NLP (Natural Language Programming) are a match
+    made in heaven.\n\nUsing some basic language modeling techniques, a dash of probability,
+    and a few lines of easy-to-follow Ruby code, we can create a virtual author capable
+    of generating a very convincing Potter pastiche. And if the life of an author’s
+    not for you, don’t worry. The techniques we’ll explore are applicable to a host
+    of other problems, from machine translation to spam detection.\n\n\n      Friday,
+    6th July 2018"
+  speaker_twitter: https://twitter.com/alexpeattie
+  talk_title: 'Ruby-us Hagrid: Writing Harry Potter with Ruby'
+  talk_description: The average salary for a Ruby programmer is £52k, but the average
+    net worth of a “J. K. Rowling” is more than $1bn! We shouldn’t be writing Ruby
+    code, we should be writing Harry Potter books.
+  talk_video: https://brightonruby.com/2018/
+- conference_name: Brighton Ruby 2018
+  speaker_name: "Joe Hart //\n        \n          @joehart"
+  speaker_bio: "Joe Hart //\n        \n          @joehart\n        \n      \n      Joe
+    Hart is a comedian who codes, or a software engineer who tells jokes depending
+    on which time of the day he’s asked. He’s built software for the BBC, non profits
+    and is currently making WebVR things for Blend Media.\n\n\n      \n\n      A live
+    performance of video games and stand up comedy from comedian and coder, including
+    pre prepared web games to play and even creating a video game with the audience
+    on stage in only 10 minutes.\n\n\n      Friday, 6th July 2018"
+  speaker_twitter: https://twitter.com/joehart
+  talk_title: Alpha. Beta. Gamer.
+  talk_description: A live performance of video games and stand up comedy.
+  talk_video: https://brightonruby.com/2018/

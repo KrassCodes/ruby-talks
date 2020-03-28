@@ -5,25 +5,25 @@ layout: page
 <h3>ALL TALKS</h3>
 
 <ul>
-    {% for item in site.data.talks %}
+    {% for item in site.data.master_talks_list %}
         <li>
-            {% for subitem in item.talk %}
-        
-                <b>Title:</b> 
-                {{ subitem.conference_name }}
+                <b>Conference:</b> 
+                {{ item.conference_name }}
                 <br>
                 <b>Speaker:</b> 
-                {{ subitem.speaker_name }}
+                {{ item.speaker_name }}
+                <br>
+                <b>Twitter:</b> 
+                <a href="{{ item.speaker_twitter }}"> {{ item.speaker_twitter }} </a>
                 <br>
                 <b>Bio:</b>
-                {{ subitem.speaker_bio }}
+                {{ item.speaker_bio }}
                 <br>
                 <b>Video:</b>
-                <a href="{{ subitem.talk_video }}"> {{ subitem.talk_video }} </a>
+                <a href="{{ item.talk_video }}"> {{ item.talk_title}} </a>
                 <br>
-                <br>
-                 
-                 {% endfor %}
+                <br>         
         </li>
     {% endfor %}
+     
 </ul>
